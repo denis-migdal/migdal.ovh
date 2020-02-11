@@ -1,0 +1,55 @@
+image: alpine
+
+# Cache modules in between jobs
+cache:
+  key: "master"
+  paths:
+    - node_modules/
+
+stages:
+  - build
+  - validate
+  - deploy
+
+build-dev:
+  stage: build
+  script:
+    - apk add git npm
+    - npm install --verbose
+    - npm run build-dev
+  except:
+    - master
+    - test_pages
+
+build-prod:
+  stage: build
+  script:
+    - apk add git npm
+    - npm install --verbose
+    - npm run build
+  except:
+    - master
+    - test_pages
+
+validate-html:
+  stage: validate
+  script:
+    - apk add git npm
+    - npm install --verbose
+    - npm install -g html-validator-cli
+    - npm run build-dev -- --env.src @all/all
+    - npm run validate-html
+
+pages:
+  stage: deploy
+  script:
+    - apk add git npm
+    - npm install --verbose
+    - npm run build-dev
+    - mkdir public
+    - mv dist/website public/${CI_COMMIT_REF_SLUG}
+  artifacts:
+    paths:
+      - public/${CI_COMMIT_REF_SLUG}
+  only:
+    - master
