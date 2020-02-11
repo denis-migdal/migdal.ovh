@@ -39,6 +39,8 @@ validate-html:
     - npm install -g html-validator-cli
     - npm run build-dev
     - npm run validate-html
+  except:
+    - master
 
 pages:
   stage: deploy
