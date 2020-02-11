@@ -5,8 +5,10 @@
   "private": true,
   "main": "src/main.js",
   "scripts": {
-    "build-dev": "webpack --mode=development",
+    "build-dev": "webpack --mode=development && mkdir dist/ && touch dist/index.html",
     "build": "webpack --mode=production",
+    "validate-html": "find dist -type f -name '*.html' -print0 | xargs -t -n1 -0 node ./node_modules/html-validator-cli --verbose --file",
+
     "cssmin": "uglifycss src/css/*.css src/css/*/*.css > www/css/main.bundle.css",
     "imgmin": "convert \"$FILE\" -sampling-factor 4:2:0 -strip -quality 85 -interlace JPEG -colorspace sRGB \"$FILE.min\"",
     "datauri": "uuencode -m $FILE remotename | tail -n +2 | head -n -1 | tr -d '\n'",
@@ -21,6 +23,8 @@
     "webpack-cli": "^3.1.0"
   },
   "dependencies": {
+    "html-validator": "^5.0.0",
+    "html-validator-cli": "^7.0.0",
     "jquery": "^3.3.1",
     "purifycss": "^1.2.6"
   }
