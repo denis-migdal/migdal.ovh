@@ -5,7 +5,7 @@
   "private": true,
   "main": "src/main.js",
   "scripts": {
-    "build-dev": "webpack --mode=development && mkdir dist/ && touch index.html",
+    "build-dev": "webpack --mode=development && mkdir dist/ && touch dist/index.html",
     "build": "webpack --mode=production",
     "validate-html": "find dist -type f -name '*.html' -print0 | xargs -t -n1 -0 node ./node_modules/html-validator-cli --verbose --file",
 

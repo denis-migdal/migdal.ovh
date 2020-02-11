@@ -1,2 +1,417 @@
-!function(e){var t={};function n(r){if(t[r])return t[r].exports;var o=t[r]={i:r,l:!1,exports:{}};return e[r].call(o.exports,o,o.exports,n),o.l=!0,o.exports}n.m=e,n.c=t,n.d=function(e,t,r){n.o(e,t)||Object.defineProperty(e,t,{enumerable:!0,get:r})},n.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},n.t=function(e,t){if(1&t&&(e=n(e)),8&t)return e;if(4&t&&"object"==typeof e&&e&&e.__esModule)return e;var r=Object.create(null);if(n.r(r),Object.defineProperty(r,"default",{enumerable:!0,value:e}),2&t&&"string"!=typeof e)for(var o in e)n.d(r,o,function(t){return e[t]}.bind(null,o));return r},n.n=function(e){var t=e&&e.__esModule?function(){return e.default}:function(){return e};return n.d(t,"a",t),t},n.o=function(e,t){return Object.prototype.hasOwnProperty.call(e,t)},n.p="",n(n.s=0)}([function(e,t,n){"use strict";n.r(t);n(1)},function(e,t,n){const r=n(2);var o,l=null;let a=null;function s(){o+1<a.length&&u(o+1)}function i(){0!=o&&u(o-1)}function u(e,t){c(o,e,t),o=e,t;let n=id_to_pagename[e];var r={name:n,id:e};let l="";null!=t&&(l="/"+t),history.pushState(r,n,"/"+n+l)}function c(e,t,n){if(a.eq(e).removeClass("active"),a.eq(t).addClass("active"),"true"==r("#navbar").attr("aria-expanded")&&r(".navbar-toggle").trigger("click"),r("#pages > *").eq(e).addClass("hidden_page"),r("#pages > *").eq(t).removeClass("hidden_page"),r("#page_footer").toggleClass("hidden_page",0==t),null!=l&&r(l).removeClass("url_hash"),null!=n){let e=document.getElementById(n);e.scrollIntoView(),r(e).addClass("url_hash"),l=e}else window.scrollTo(0,0)}let d=null,f=null;function h(){o=initial_page;let e=window.location.pathname.split("/")[2];""!=e&&void 0!==e||(e=null),r(document).on("keydown",e=>37==e.which?(i(),!1):39==e.which?(s(),!1):void 0),r(document).on("touchstart",e=>{let t=e.changedTouches[0];d=t.pageX,f=t.pageY}),r(document).on("touchend",e=>{let t=e.changedTouches[0],n=t.pageX-d,r=t.pageY-f;Math.abs(n)<Math.abs(r)||Math.abs(n)<50||(n<0?s():n>0&&i())}),c(o,o,e)}r(()=>{a=r("#nav > *"),h(),document.documentElement.scrollTop-=60,window.onpopstate=(e=>{let t=initial_page;null!=e.state&&(t=e.state.id),c(o,t),o=t}),r("html").on("click","a",e=>{if(e.ctrlKey)return!0;let t=r(e.currentTarget).attr("href");if("/"!=t[0]||r(e.currentTarget).attr("download"))return!0;e.preventDefault();let[n,o,l]=t.split("/");return function(e,t){u(e=pagename_to_id[e],t)}(o,l),document.documentElement.scrollTop-=60,!1}),r("html").on("click",".scrolltop_btn",e=>(e.preventDefault(),document.documentElement.scrollTop=0,!1))})},function(e,t){class n{constructor(e,t){this._event=e,this.which=e.which,this.ctrlKey=e.ctrlKey,this.currentTarget=t}preventDefault(){this._event.preventDefault()}}class r{constructor(e){this._objs=e,this.length=e.length}on(e,t,r){"function"==typeof t&&(r=t,t=void 0);let o=e=>{let o=e.currentTarget;if(t){for(o=e.target;o&&o!=e.currentTarget&&!o.matches(t);)o=o.parentNode;if(o===e.currentTarget)return!0}return r(new n(e,o))};for(let t of this._objs)t.addEventListener(e,o)}eq(e){return new r([this._objs[e]])}removeClass(e){for(let t of this._objs)t.classList.remove(e)}addClass(e){for(let t of this._objs)t.classList.add(e)}toggleClass(e,t){t?this.addClass(e):this.removeClass(e)}attr(e,t){if(void 0===t)return this._objs[0].getAttribute(e);for(let n of this._objs)n.setAttribute(e,t)}trigger(e){for(let t of this._objs)t.dispatchEvent(new n(e))}}e.exports=function(e){switch(typeof e){case"function":return void("loading"!==document.readyState?e():document.addEventListener("DOMContentLoaded",e));case"string":return new r(document.querySelectorAll(e));case"object":return new r([e])}}}]);
+/******/ (function(modules) { // webpackBootstrap
+/******/ 	// The module cache
+/******/ 	var installedModules = {};
+/******/
+/******/ 	// The require function
+/******/ 	function __webpack_require__(moduleId) {
+/******/
+/******/ 		// Check if module is in cache
+/******/ 		if(installedModules[moduleId]) {
+/******/ 			return installedModules[moduleId].exports;
+/******/ 		}
+/******/ 		// Create a new module (and put it into the cache)
+/******/ 		var module = installedModules[moduleId] = {
+/******/ 			i: moduleId,
+/******/ 			l: false,
+/******/ 			exports: {}
+/******/ 		};
+/******/
+/******/ 		// Execute the module function
+/******/ 		modules[moduleId].call(module.exports, module, module.exports, __webpack_require__);
+/******/
+/******/ 		// Flag the module as loaded
+/******/ 		module.l = true;
+/******/
+/******/ 		// Return the exports of the module
+/******/ 		return module.exports;
+/******/ 	}
+/******/
+/******/
+/******/ 	// expose the modules object (__webpack_modules__)
+/******/ 	__webpack_require__.m = modules;
+/******/
+/******/ 	// expose the module cache
+/******/ 	__webpack_require__.c = installedModules;
+/******/
+/******/ 	// define getter function for harmony exports
+/******/ 	__webpack_require__.d = function(exports, name, getter) {
+/******/ 		if(!__webpack_require__.o(exports, name)) {
+/******/ 			Object.defineProperty(exports, name, { enumerable: true, get: getter });
+/******/ 		}
+/******/ 	};
+/******/
+/******/ 	// define __esModule on exports
+/******/ 	__webpack_require__.r = function(exports) {
+/******/ 		if(typeof Symbol !== 'undefined' && Symbol.toStringTag) {
+/******/ 			Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
+/******/ 		}
+/******/ 		Object.defineProperty(exports, '__esModule', { value: true });
+/******/ 	};
+/******/
+/******/ 	// create a fake namespace object
+/******/ 	// mode & 1: value is a module id, require it
+/******/ 	// mode & 2: merge all properties of value into the ns
+/******/ 	// mode & 4: return value when already ns object
+/******/ 	// mode & 8|1: behave like require
+/******/ 	__webpack_require__.t = function(value, mode) {
+/******/ 		if(mode & 1) value = __webpack_require__(value);
+/******/ 		if(mode & 8) return value;
+/******/ 		if((mode & 4) && typeof value === 'object' && value && value.__esModule) return value;
+/******/ 		var ns = Object.create(null);
+/******/ 		__webpack_require__.r(ns);
+/******/ 		Object.defineProperty(ns, 'default', { enumerable: true, value: value });
+/******/ 		if(mode & 2 && typeof value != 'string') for(var key in value) __webpack_require__.d(ns, key, function(key) { return value[key]; }.bind(null, key));
+/******/ 		return ns;
+/******/ 	};
+/******/
+/******/ 	// getDefaultExport function for compatibility with non-harmony modules
+/******/ 	__webpack_require__.n = function(module) {
+/******/ 		var getter = module && module.__esModule ?
+/******/ 			function getDefault() { return module['default']; } :
+/******/ 			function getModuleExports() { return module; };
+/******/ 		__webpack_require__.d(getter, 'a', getter);
+/******/ 		return getter;
+/******/ 	};
+/******/
+/******/ 	// Object.prototype.hasOwnProperty.call
+/******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
+/******/
+/******/ 	// __webpack_public_path__
+/******/ 	__webpack_require__.p = "";
+/******/
+/******/
+/******/ 	// Load entry module and return exports
+/******/ 	return __webpack_require__(__webpack_require__.s = "./src/main.js");
+/******/ })
+/************************************************************************/
+/******/ ({
+
+/***/ "./src/js/jquery_base.js":
+/*!*******************************!*\
+  !*** ./src/js/jquery_base.js ***!
+  \*******************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+class Event {
+
+	constructor(event, currentTarget) {
+		this._event = event;
+
+		this.which = event.which;
+		this.ctrlKey = event.ctrlKey;
+
+		this.currentTarget = currentTarget;
+	}
+
+	preventDefault() {
+		this._event.preventDefault();
+	}
+}
+
+class HTMLEntityList {
+
+	constructor(objs) {
+		this._objs = objs;
+
+		this.length = objs.length;
+	}
+
+	on(event, delegate, fct) {
+
+		if( (typeof delegate) === 'function' ) {
+			fct = delegate;
+			delegate = undefined;
+		}
+
+		let handler =  (event) => {
+
+			let target = event.currentTarget;
+
+			if (delegate ) {
+
+				target = event.target;
+				while( target && target != event.currentTarget ) {
+
+					if( target.matches(delegate) )
+						break;
+
+					target = target.parentNode;
+				}
+
+				if( target === event.currentTarget )
+					return true;
+
+			}
+
+			return fct( new Event(event, target) );
+
+		};
+
+		for( let obj of this._objs )
+			obj.addEventListener(event, handler);
+
+	}
+
+	eq(idx) {
+		return new HTMLEntityList([this._objs[idx]]);
+	}
+
+	removeClass(class_name) {
+		for( let obj of this._objs )
+			obj.classList.remove(class_name);
+	}
+
+	addClass(class_name) {
+		for( let obj of this._objs )
+			obj.classList.add(class_name);
+	}
+
+	toggleClass(class_name, enable) {
+
+		if(enable)
+			this.addClass(class_name);
+		else
+			this.removeClass(class_name);
+	}
+
+	attr(attr_name, attr_value) {
+
+		if(attr_value === undefined)
+			return this._objs[0].getAttribute(attr_name);
+
+		for( let obj of this._objs)
+			obj.setAttribute(attr_name, attr_value);
+	}
+
+	trigger(event) {
+
+		for( let obj of this._objs)
+			obj.dispatchEvent( new Event(event) );
+		
+	}
+}
+
+
+function $(arg) {
+
+	switch( typeof arg ) {
+
+		case 'function':
+
+			if (document.readyState !== "loading")
+				arg();
+			else
+				document.addEventListener("DOMContentLoaded", arg);
+
+			return;
+
+		case 'string':
+			return new HTMLEntityList( document.querySelectorAll(arg) );
+
+		case 'object':
+			return new HTMLEntityList([arg]);
+	}
+}
+
+module.exports = $;
+
+
+/***/ }),
+
+/***/ "./src/js/nav.js":
+/*!***********************!*\
+  !*** ./src/js/nav.js ***!
+  \***********************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+//const $ = require('jquery');
+const $ = __webpack_require__(/*! ./jquery_base.js */ "./src/js/jquery_base.js");
+
+var index;
+var last_anchor;
+var last_anchor_elem = null;
+
+let pages = null;
+
+
+function next_slide() {
+
+	if( index+1 < pages.length)
+		goto_page(index+1);
+}
+
+function previous_slide() {
+	if( index != 0)
+		goto_page(index-1);
+}
+
+function goto_page(next, anchor) {
+
+	slide(index, next, anchor);
+	index = next;
+	last_anchor = anchor;
+
+	let name = id_to_pagename[next];
+	var stateObj = { name: name, id: next };
+
+	let uanchor = "";
+	if( anchor != null) {
+		uanchor = "/" + anchor;		
+	}
+
+	history.pushState(stateObj, name, "/"+name+uanchor);
+}
+
+function goto_pagename(next, anchor){
+
+	next = pagename_to_id[next];
+	goto_page(next, anchor);
+}
+
+function slide(old, index, anchor) {
+
+	pages.eq(old).removeClass("active");
+	pages.eq(index).addClass("active");
+
+	if( $('#navbar').attr('aria-expanded') == "true" ){
+		$(".navbar-toggle").trigger( "click" );
+	}
+
+	$('#pages > *').eq(old).addClass('hidden_page');
+	$('#pages > *').eq(index).removeClass('hidden_page');
+
+	$('#page_footer').toggleClass('hidden_page', index == 0);
+
+	if( last_anchor_elem != null) {
+		$(last_anchor_elem).removeClass("url_hash");
+	}
+
+	if( anchor != null) {
+		let elem = document.getElementById(anchor);
+		elem.scrollIntoView();
+		$(elem).addClass("url_hash");
+		last_anchor_elem = elem;
+	} else {
+		window.scrollTo(0, 0);
+	}
+}
+
+let touch_x = null;
+let touch_y = null;
+
+function init_events() {
+
+	$(document).on( 'keydown', (event) => {
+
+		if(event.which == 37) {
+			previous_slide();
+			return false;
+		}
+		if(event.which == 39) {
+			next_slide();
+			return false;
+		}
+	} );
+
+	$(document).on("touchstart", (event) => {
+		let touch = event.changedTouches[0];
+		touch_x = touch.pageX;
+		touch_y = touch.pageY;
+	});
+	$(document).on("touchend", (event) => {
+		let touch = event.changedTouches[0];
+		let dx = touch.pageX - touch_x;
+		let dy = touch.pageY - touch_y;
+
+		if( Math.abs(dx) < Math.abs(dy) )
+			return;
+
+		if( Math.abs(dx) < 50 )
+			return;
+
+		if( dx < 0 )
+			next_slide();
+		else if(dx > 0)
+			previous_slide();
+	});
+}
+
+function init() {
+	index = initial_page;
+
+	let parts = window.location.pathname.split('/');
+	let anchor = parts[2];
+
+	if(anchor == "" || anchor === undefined)
+		anchor = null;
+	init_events();
+	slide(index, index, anchor);
+}
+
+//TODO DOM event ? / Import JQuery ?
+$( () => {
+	pages = $('#nav > *');
+	init();
+	document.documentElement.scrollTop -=60;
+
+	window.onpopstate = (event) => {
+		let new_index = initial_page;		
+		if( event.state != null)
+			new_index = event.state.id;
+		slide(index, new_index);
+		index = new_index;
+	};
+
+
+	$('html').on('click', "a", (event) => {
+
+		if( event.ctrlKey )
+			return true;
+
+		let dst = $(event.currentTarget).attr('href');
+
+		if(dst[0] != '/' || $(event.currentTarget).attr('download') )
+			return true;
+
+		event.preventDefault();
+
+		let [n, a, b] = dst.split('/');
+		goto_pagename(a, b);
+
+		document.documentElement.scrollTop -=60;
+
+		return false;
+
+	});
+
+	$('html').on('click', ".scrolltop_btn", (event) => {
+
+		event.preventDefault();
+
+		document.documentElement.scrollTop = 0;
+
+		return false;
+	});
+});
+
+/***/ }),
+
+/***/ "./src/main.js":
+/*!*********************!*\
+  !*** ./src/main.js ***!
+  \*********************/
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _js_nav_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./js/nav.js */ "./src/js/nav.js");
+/* harmony import */ var _js_nav_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_js_nav_js__WEBPACK_IMPORTED_MODULE_0__);
+
+
+/***/ })
+
+/******/ });
 //# sourceMappingURL=main.bundle.js.map
