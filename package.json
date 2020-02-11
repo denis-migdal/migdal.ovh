@@ -1,0 +1,27 @@
+{
+  "name": "migdal.ovh",
+  "version": "0.0.0",
+  "description": "",
+  "private": true,
+  "main": "src/main.js",
+  "scripts": {
+    "build-dev": "webpack --mode=development",
+    "build": "webpack --mode=production",
+    "cssmin": "uglifycss src/css/*.css src/css/*/*.css > www/css/main.bundle.css",
+    "imgmin": "convert \"$FILE\" -sampling-factor 4:2:0 -strip -quality 85 -interlace JPEG -colorspace sRGB \"$FILE.min\"",
+    "datauri": "uuencode -m $FILE remotename | tail -n +2 | head -n -1 | tr -d '\n'",
+    "csspure": "wget $URI -O /tmp/output.html && cat /tmp/output.html | perl -0777 -pe 's/<style>.*</style>//gs' > /tmp/outputp.html",
+    "csspure2": "purifycss /tmp/outputp.html $CSS --info --out $OUT",
+    "push": "rm -r /Data/SSHFS/migdal.ovh/www && cp -r www /Data/SSHFS/migdal.ovh/www",
+    "help": "echo 'build\nbuild-dev\ncssmin\nFILE=input_file datauri\nFILE=input_file csspure\nFILE=input_file imgmin\n CSS= URI= OUT= purifycss'"
+  },
+  "author": "Denis Migdal",
+  "devDependencies": {
+    "webpack": "^4.18.1",
+    "webpack-cli": "^3.1.0"
+  },
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "purifycss": "^1.2.6"
+  }
+}

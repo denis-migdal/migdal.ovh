@@ -1,0 +1,26 @@
+.flexbox {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	width: 100%;
+}
+
+.flexbox > a {
+	color: black;
+}
+
+.flexbox > a > div {
+
+	width:10em;
+
+	margin: 0.5em;
+}
+
+.flexbox > a:hover > div {
+	opacity: 0.8;
+	background-color:#eee;
+}
+
+.flexbox > a:hover {
+	opacity: 0.8;
+}

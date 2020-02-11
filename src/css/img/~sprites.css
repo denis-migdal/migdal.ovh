@@ -1,0 +1,42 @@
+/* jshint ignore: start */
+
+.invisible {
+	display:none;
+}
+
+.img {
+	width: 100%;
+	height: 100%;
+}
+
+.sprite_0 {
+	background-position: -0% 0%;
+}
+
+.sprite_1 {
+	background-position: -100% 0%;
+}
+
+.sprite_2 {
+	background-position: -200% 0%;
+}
+
+.sprite_3 {
+	background-position: -300% 0%;
+}
+
+.sprite_4 {
+	background-position: -400% 0%;
+}
+
+.sprite_5 {
+	background-position: -500% 0%;
+}
+
+.sprite_6 {
+	background-position: -600% 0%;
+}
+
+.sprite_7 {
+	background-position: -700% 0%;
+}

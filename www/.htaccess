@@ -1,0 +1,14 @@
+RewriteEngine On
+
+RewriteCond %{HTTPS} !on
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}
+
+RewriteRule ^(topics|publications|resources|relations|teaching|cv|home)/(.*)$  ?p=$1#$2
+RewriteRule ^(topics|publications|resources|relations|teaching|cv|home)$  ?p=$1
+RewriteRule ^sitemap.xml$ sitemap.xml.php
+
+ErrorDocument 404 /?p=404
+ErrorDocument 500 /?p=500
+ErrorDocument 502 /?p=500
+ErrorDocument 503 /?p=500
+ErrorDocument 504 /?p=500

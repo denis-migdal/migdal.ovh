@@ -1,0 +1,48 @@
+[
+	{"img-src":"", "id":"idn", "name":"Digital Identity", "desc":"",
+		"services":[
+			{"year": "2018-2019", "school":"ENSICAEN", "level":"M1", "resp":"Christophe Rosenberger", "TD":0, "TP":"8", "courses":0, "projects":0, "hetd":8, "url":"http://livretpedagogique.ensicaen.fr/pages/afficherMatiere.php?s=1&m=1&u=269&mo=373&ma=42&"},
+			{"year": "2018-2019", "school":"ENSICAEN", "level":"M1", "resp":"Christophe Rosenberger", "TD":0, "TP":"8", "courses":0, "projects":0, "hetd":8, "url":"http://livretpedagogique.ensicaen.fr/pages/afficherMatiere.php?s=1&m=1&u=269&mo=373&ma=42&"},
+			{"year": "2018-2019", "school":"ENSICAEN", "level":"M1", "resp":"Christophe Rosenberger", "TD":0, "TP":"4", "courses":0, "projects":0, "hetd":4, "url":"http://livretpedagogique.ensicaen.fr/pages/afficherMatiere.php?s=11&m=35&u=211&mo=1437&ma=1847&"}
+		]
+	},
+	{"img-src":"http://www.freeiconspng.com/img/28389", "id":"cpp", "name":"C++", "desc":"",
+		"services":[
+			{"year": "2018-2019", "school":"ENSICAEN", "level":"M1", "resp":"Sebastien Fourey", "TD":14, "TP":14, "courses":0, "projects":0, "hetd":28, "url":"http://livretpedagogique.ensicaen.fr/pages/afficherMatiere.php?s=1&m=0&u=68&mo=170&ma=693&"},
+			{"year": "2017-2018", "school":"ENSICAEN", "level":"M1", "resp":"Sebastien Fourey", "TD":14, "TP":14, "courses":0, "projects":0, "hetd":28, "url":"http://livretpedagogique.ensicaen.fr/pages/afficherMatiere.php?s=1&m=0&u=68&mo=170&ma=693&"},
+			{"year": "2017-2018", "school":"ENSICAEN", "level":"M1", "resp":"Sebastien Fourey", "TD":14, "TP":14, "courses":0, "projects":0, "hetd":28, "url":"http://livretpedagogique.ensicaen.fr/pages/afficherMatiere.php?s=1&m=0&u=68&mo=170&ma=693&"}
+		]
+	},
+
+
+	{"img-src":"http://www.iconarchive.com/show/plex-icons-by-cornmanthe3rd/Other-python-icon.html", "id":"python", "name":"Python", "desc":"",
+		"services":[
+			{"year": "2016-2017", "school":"UNICAEN", "level":"L1", "resp":"Françoise Lambert", "TD":19.5, "TP":19.5, "courses":0, "projects":0, "hetd": 32.5, "url":""}
+		]
+	},
+
+
+	{"img-src":"https://pixabay.com/fr/engrenages-roue-dent%C3%A9e-industrielle-148196/", "id":"soft-eng", "name":"Software engineering", "desc":"",
+		"services":[
+			{"year": "2016-2017", "school":"UNICAEN", "level":"L1", "resp":"Alexis Lechervy", "TD":13, "TP":13, "courses":0, "projects":0, "hetd":21.7, "url":""}
+		]},
+
+
+
+	{"img-src":"https://commons.wikimedia.org/wiki/File:HEB_project_flow_icon_03_wrench_and_nuts.svg","id":"3y-projects", "name":"M1 projects", "desc":"",
+		"services":[
+			{"year": "2016-2017", "school":"ENSICAEN", "level":"M1", "resp":"Loïck Lhote", "TD":0, "TP":0, "courses":0, "projects":"N/A", "hetd":"3*N/A","url":"http://livretpedagogique.ensicaen.fr/pages/afficherMatiere.php?s=1&m=0&u=71&mo=1385&ma=276"},
+			{"year": "2017-2018", "school":"ENSICAEN", "level":"M1", "resp":"Loïck Lhote", "TD":0, "TP":0, "courses":0, "projects":"N/A", "hetd":"4*2.5", "url":"http://livretpedagogique.ensicaen.fr/pages/afficherMatiere.php?s=1&m=0&u=71&mo=1385&ma=276"}
+		]
+	},
+
+	{"img-src":"https://en.wikipedia.org/wiki/File:Suitcase_icon_green.svg", "id":"l3-internships", "name":"L3 Internships", "desc":"",
+		"services":[
+			{"year": "2018-2019", "school":"UNICAEN", "level":"L3", "resp":"Alexis Lechervy", "TD":0, "TP":0, "courses":0, "projects":"N/A", "hetd":"N/A", "url":""},
+			{"year": "2016-2017", "school":"UNICAEN", "level":"L3", "resp":"Alexis Lechervy", "TD":0, "TP":0, "courses":0, "projects":"N/A", "hetd":2, "url":""},
+			{"year": "2016-2017", "school":"UNICAEN", "level":"L3", "resp":"Alexis Lechervy", "TD":0, "TP":0, "courses":0, "projects":"N/A", "hetd":2, "url":""},
+			{"year": "2016-2017", "school":"UNICAEN", "level":"L3", "resp":"Alexis Lechervy", "TD":0, "TP":0, "courses":0, "projects":"N/A", "hetd":2, "url":""},
+			{"year": "2016-2017", "school":"UNICAEN", "level":"L3", "resp":"Alexis Lechervy", "TD":0, "TP":0, "courses":0, "projects":"N/A", "hetd":2, "url":""},
+			{"year": "2016-2017", "school":"UNICAEN", "level":"L3", "resp":"Alexis Lechervy", "TD":0, "TP":0, "courses":0, "projects":"N/A", "hetd":2, "url":""}
+		]}
+]

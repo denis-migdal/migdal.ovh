@@ -1,0 +1,83 @@
+{
+	"@ignore":{
+		"type":"@ignore",
+		"@ignore":[
+
+			{"type":"@???", "title":"Rapport d'avancement de recherche ?"},
+
+			{"type":"@TR", "title":"TR1 + TR1"},
+			{"type":"@", "title": "SLIDES: [CW/ITASEC?], SIoT, CORESA"},
+			{"type":"@", "title": "VIDEOS: ICISSP, SIoT, ACM CCS + thesis presentation?"},
+
+			{"type":"@", "title": "DEMOS: XCODE"},
+			{"type":"@", "title": "FUTURES_DEMOS: OTDP/TLS Switching, + JdDVP/SkepticDB?"}
+		]
+	},
+	"2019-kdas-demos": {
+		"title": "Keystroke Anonymization",
+		"url": "https://trust.greyc.fr/"
+	},
+	"2019-xcrp-demos": {
+		"title": "Biometric Authentication",
+		"url": "https://trust.greyc.fr/Demos/Authentication/"
+	},
+	"2019-social-demos": {
+		"title": "Ensuring identities on Social Networks",
+		"url": "https://trust.greyc.fr/"
+	},
+	"2019-editor-demos": {
+		"title": "Continuous Biometric Authentication",
+		"url": "https://trust.greyc.fr/"
+	},
+	"2018-icissp-poster": {
+		"title": "Towards a Personal Identity Code Respecting Privacy",
+		"authors": ["Denis Migdal", "Christophe Rosenberger"],
+		"content":{"pdf":"@res"},
+		"abstract":"— Personal information might be collected during usage of Internet services; — Such information are linked to the user, the browser, or the device; — But collection of such information poses major privacy issues; — Our answer: a non-cryptographic signature, in form of a binary code, to compare information while respecting user privacy."
+	},
+	"2016-acmccs-poster": {
+		"title":"Offline Personal Authenticating Device applied in Hospitals and E-banking - OffPAD",
+		"authors":["Denis Migdal", "Christian Johansen", "Audun Jøsang"],
+		"content":{"pdf":"@res"},
+		"abstract":"The concept of Lucidman (Local User-Centric Identity Management) is an approach to providing scalable, secure and user friendly identity and authentication functionalities. In this context we demonstrate the OffPAD as a trusted device to support different forms of authentication. The Lucidman/OffPAD approach consists of locating the identity management and authentication functionalities on the user side instead of on the server side or in the cloud. OffPAD aims to strengthen authentication assurance, improves usability, minimizes trust requirements, and has the advantage that trusted online interaction can be achieved even in the presence of malware infection of client platforms. A video for this demo is available online."
+	},
+	"2017-ressi-slides":{
+		"title":"OffPAD - Objet Personnel d'Authentification Hors-ligne appliqué aux hôpitaux et banques en ligne",
+		"authors":["Denis Migdal"],
+		"content":{"pdf":"@res"}
+	},
+	"2017-ressi-poster": {
+		"title":"Appareil Personnel et Hors-ligne d'Authentification - OffPAD",
+		"authors":["Denis Migdal", "Christian Johansen", "Audun Jøsang"],
+		"content":{"pdf":"@res"},
+		"abstract":"Lucidman est une approche fournissant des fonctionnalités d'identité et d'authentification sécurisées et ergonomiques. Dans ce cadre, nous présentons l'OffPAD, un appareil sécurisé, supportant différentes formes d'authentifications. L'approche Lucidman/OffPAD consiste à effectuer la gestion des identités et de l'authentification côté utilisateur au lieu de le faire côté serveur ou dans le cloud. OffPAD vise à améliorer la sécurité et la maniabilité de l'authentification, et a l'avantage de permettre des interactions en ligne sécurisées quand bien même le client serait infecté par un virus."
+	},
+	"2016-uio_1-TR":{
+		"warning":"This document was written during my engineering internships, prior my thesis.",
+		"title":"Offpad: Offline personal authenticating device: implementations and applications",
+		"authors":["Christian Johansen", "Audun Jøsang", "Denis Migdal"],
+		"topic": ["otdp","otdp"],
+		"publisher":{
+			"name": "University of Oslo",
+			"date": "Aug. 2016",
+			"place": "Oslo, Norway",
+			"page": "http://urn.nb.no/URN:NBN:no-62025"
+		},
+		"content":{ "pdf": "@res" },
+		"abstract":"Identity and authentication solutions often lack usability and scalability, or do not provide high enough authentication assurance. The concept of Lucidman (Local User-Centric Identity Management) is an approach to providing scalable, secure and user friendly identity and authentication functionalities. In this context we demonstrate the use of an OffPAD (Offline Personal Authentication Device) as a trusted device to support different forms of authentication. The Lucidman/Off- PAD approach consists of locating the identity management and authentication functionalities on the user side instead of on the server side or in the cloud. This demo aims to show how OffPAD strengthens authentication assurance, improves usability, minimizes trust requirements, and has the advantage that trusted online interaction can be achieved even in the presence of malware infection of client platforms. The trusted device OffPAD has been designed as a phone cover, therefore not requiring the user to carry an extra gadget. We focus on six demonstrators, three useful in e-banking and three in the hospital domain where nurses, doctors, or patients are authenticated and access is granted in various situations base on the OffPAD."
+	},
+	"2016-uio_2-TR":{
+		"warning":"This document was written during my engineering internships, prior my thesis.",
+		"title":"Usable Authentication with an Offline Trusted Device Proxy Architecture (long version)",
+		"authors":["Christian Johansen", "Audun Jøsang", "Denis Migdal"],
+		"topic":  ["otdp", "otdp"],
+		"publisher": {
+			"name": "University of Oslo",
+			"date": "Aug. 2016",
+			"place": "Oslo, Norway",
+			"page":"http://urn.nb.no/URN:NBN:no-61585"
+		},
+		"content":{ "pdf":"@res" },
+		"abstract":"Client platform infection poses a significant threat to secure user authentication. Com- bining vulnerable client platforms with special security devices, as often the case in e- banking, can increase significantly the security. This paper describes a new architecture where a security proxy on the client platform communicates with both a trusted security device and the server application. The proxy switches between two TLS channels, one from the client and another from the trusted device. The result is a highly usable and flexible authentication solution with strong security assurance."
+	}
+}

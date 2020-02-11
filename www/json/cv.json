@@ -1,0 +1,129 @@
+{
+	"parts_names": {
+		"work": "Positions",
+		"resp": "Responsabilities",
+		"vulg": "Popularization of Science",
+		"rev": "Reviewing",
+		"edu": "Education",
+		"certifs": "MOOC & Certifications",
+		"doc-form": "PhD trainings",
+		"misc": "Miscellaneous"
+	},
+
+	"rev": [
+		{ "date": "2019-06", "name": "IEEE Transactions on Information Forensics and Security (TIFS)"},
+		{ "date": "2018-11", "name": "International Conference on Information Systems Security and Privacy (ICISSP)"},
+		{ "date": "2018-04", "name": "International Journal of Computational Intelligence Studies (IJCISTUDIES)"}
+	],
+	"work": [
+		{ "dates": "2016-", "name": "PhD student", "place":"GREYC lab. (ENSICAEN)", "where": "France"},
+		{ "dates": "2015-2016", "name": "Trainee: OffPAD Eurostars project (5-months)", "place":"University of Oslo", "where": "Norway"},
+		{ "dates": "2014-2015", "name": "Trainee: OffPAD Eurostars project (3-months)", "place":"University of Oslo", "where": "Norway"},
+		{ "dates": "2014-2014", "name": "Administrative and Informatique employee (1-month)", "place":"HTI Services", "where": "France"},
+		{ "dates": "2013-2013", "name": "Trainee (2-months)", "place":"Roannais Agglomération", "where": "France"}
+	],
+	"edu": [
+		{ "dates": "2016-", "name": "PhD in Computer Science (in progress)", "school": "University of Caen", "where": "France"},
+		{ "dates": "2013-2016", "name": "Engeneering diploma in Computer Science (with International Study mention)", "school": "ENSICAEN", "where": "France"},
+		{ "dates": "2014-2016", "name": "Master in Computer Science", "school": "University of Caen", "where": "France"},
+		{ "dates": "2015-2016", "name": "Master in Management and Administration (MAE)", "school": "University of Caen", "where": "France"},
+		{ "dates": "2011-2013", "name": "Bachelor in Computer Science", "school": "University of Auvergne", "where": "France"}
+
+	],
+	"doc-form": [
+		{
+			"name": "16th International Summer School for Advanced Studies on \"Biometrics and Forensic Science in the Deep Learning Era\"",
+			"time": "5 days",
+			"prof": "Massimo Tistarelli",
+			"date":"2019-05-30"
+		},
+		{
+			"prof": "Faïcel Chamroukhi",
+			"time": "18h",
+			"name": "Statistical learning and Data Science",
+			"date":"2018-11-26"
+		},
+		{
+			"name": "Valorize a PhD in Europe (+ visit of the European Commission)",
+			"time": "2 days",
+			"prof": "",
+			"date": "2018-09-05"
+		},
+		{
+			"name": "Organization and operation of research and higher education",
+			"time": "3h",
+			"prof": "Daniel Delahaye",
+			"date": "2018-05-17"
+		},
+		{
+			"name": "Developping its professional network",
+			"time": "3h30",
+			"prof": "Francis Guérin",
+			"date": "2018-04-06"
+		},
+		{
+			"name": "Student formation and evaluation",
+			"time": "3h",
+			"prof": "Jean-Christophe Georget",
+			"date": "2018-03-20",
+			"EPSE": true
+		},
+		{
+			"name": "Voice, body, and professional communication (II)",
+			"time": "3h",
+			"prof": "Anne-Marie Crette",
+			"date": "2018-03-20",
+			"EPSE": true
+		},
+		{
+			"name": "Sociology of students publics",
+			"time": "3h",
+			"prof": "Gérard Boudesseul",
+			"date": "2018-02-14",
+			"EPSE": true
+		},
+		{
+			"name": "Voice, body, and professional communication (I)",
+			"time": "3h",
+			"prof": "Anne-Marie Crette",
+			"date": "2018-02-07",
+			"EPSE": true
+		},
+		{
+			"name": "New forms of teachings and digital",
+			"time": "3h",
+			"prof": "Dominique Lachivet",
+			"date": "2018-02-07",
+			"EPSE": true
+		},
+		{
+			"name": "Scientific Integrity",
+			"time": "4h",
+			"prof": "Francis Guérin",
+			"date": "2017-12-12"
+		},
+		{
+			"name": "Developping a digital presence strategy on the Internet",
+			"time": "4h",
+			"prof": "Christophe Boudry",
+			"date": "2017-12-11"
+		}
+	],
+	"certifs": [
+		{"date":"2014", "name":"TOEIC", "details":"score: 865"},
+		{"date":"2018", "name":"SecNum", "details":"MOOC from ANSSI"},
+		{"date":"2017", "name":"Be actor of the information security", "details":"FUN MOOC from Normandy University"}
+	],
+	"vulg": [
+		{"date":"2017-07-07", "name":"Journée de la biometrie", "details":"1-day, Caen, France"},
+		{"date":"2017", "name":"Fête de la Science", "details":"1/2-day, Caen, France"},
+		{"date":"2017", "name":"Fête de la Science", "details":"1-day, Caen, France"},
+		{"date":"2016", "name":"Fête de la Science", "details":"1-day, Caen, France"}
+	],
+	"misc": [
+		{"date":"2002-2011", "name":"Fencing", "details": "UFOLEP, Loire's Young Hope prize in 2008, French foil champion in 2008<!-- and ????, French épée champion in ????-->, French foil vice champion in 2007"}
+	],
+	"resp":[
+		{"dates":"2017-", "name":"Scientific Council member", "place": "ENSICAEN", "where":"France"}
+	]
+}

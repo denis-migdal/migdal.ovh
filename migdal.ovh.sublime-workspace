@@ -1,0 +1,1005 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"text-a",
+				"text-align\tproperty"
+			],
+			[
+				"align",
+				"align-items\tproperty"
+			],
+			[
+				"flex-",
+				"flex-direction\tproperty"
+			],
+			[
+				"flex",
+				"flex-grow\tproperty"
+			],
+			[
+				"alig",
+				"align-items\tproperty"
+			],
+			[
+				"serv",
+				"serv_hetd"
+			],
+			[
+				"teac",
+				"teachings"
+			],
+			[
+				"space",
+				"space-between\tjustify-content"
+			],
+			[
+				"l",
+				"lenght"
+			],
+			[
+				"le",
+				"length"
+			],
+			[
+				"att",
+				"attr_value"
+			],
+			[
+				"undef",
+				"undefined\tvoid"
+			],
+			[
+				"GLobal",
+				"globals"
+			],
+			[
+				"back",
+				"background-color\tproperty"
+			],
+			[
+				"inl",
+				"inline-block\tdisplay"
+			],
+			[
+				"dis",
+				"display\tproperty"
+			],
+			[
+				"wi",
+				"width\tproperty"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "www/pages/home.php",
+			"settings":
+			{
+				"buffer_size": 2363,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "www/pages/topics.php",
+			"settings":
+			{
+				"buffer_size": 2570,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "www/json/resources.json",
+			"settings":
+			{
+				"buffer_size": 6224,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "www/json/publications.json",
+			"settings":
+			{
+				"buffer_size": 17760,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "www/json/cv.json",
+			"settings":
+			{
+				"buffer_size": 4642,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "www/pages/cv.php",
+			"settings":
+			{
+				"buffer_size": 2413,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "(u64-bionic)migdal@N302L-G17P09:~/Data/Seafile/migdal.ovh$ npm run push                                                                           \n(u64-bionic)migdal@N302L-G17P09:~/Data/Seafile/migdal.ovh$                                                                                        \nta/Seafile/migdal.                                                                                                                                \n                                                                                                                                                  \n                                                                                                                                                  \n                                                                                                                                                  \n                                                                                                                                                  \n                                                                                                                                                  \n                                                                                                                                                  \n                                                                                                                                                  \n                                                                                                                                                  \n                                                                                                                                                  \n                                                                                                                                                  \n",
+			"settings":
+			{
+				"buffer_size": 1911,
+				"line_ending": "Unix",
+				"name": "JavaScript Enhancements Terminal (bash)",
+				"read_only": true,
+				"scratch": true
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 83.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Data/Seafile/migdal.ovh",
+		"/Data/Seafile/migdal.ovh/src",
+		"/Data/Seafile/migdal.ovh/src/js",
+		"/Data/Seafile/migdal.ovh/www",
+		"/Data/Seafile/migdal.ovh/www/css",
+		"/Data/Seafile/migdal.ovh/www/img",
+		"/Data/Seafile/migdal.ovh/www/json",
+		"/Data/Seafile/migdal.ovh/www/pages",
+		"/Data/Seafile/migdal.ovh/www/php"
+	],
+	"file_history":
+	[
+		"/Data/Seafile/migdal.ovh/www/.htaccess",
+		"/Data/todo2.txt",
+		"/Data/audun.txt",
+		"/Data/Seafile/migdal.ovh/www/pages/publications.php",
+		"/Data/SSHFS/migdal.ovh/www/json/publications.json",
+		"/Data/SSHFS/migdal.ovh/www/json/resources.json",
+		"/Data/Seafile/migdal.ovh/src/js/nav.js",
+		"/Data/Seafile/migdal.ovh/www/pages/home.php",
+		"/Data/Seafile/migdal.ovh/www/json/resources.json",
+		"/Data/Seafile/migdal.ovh/www/php/publications.php",
+		"/Data/Seafile/migdal.ovh/www/pages/resources.php",
+		"/Data/Seafile/migdal.ovh/www/json/cv.json",
+		"/Data/Seafile/migdal.ovh/www/pages/cv.php",
+		"/Data/Seafile/migdal.ovh/www/php/functions.php",
+		"/Data/Seafile/migdal.ovh/www/index.php",
+		"/Data/Seafile/migdal.ovh/src/css/main.css",
+		"/Data/Seafile/migdal.ovh/www/php/images.php",
+		"/Data/Seafile/migdal.ovh/src/css/img/teachings.css",
+		"/Data/Seafile/migdal.ovh/src/css/img/partners.css",
+		"/Data/Seafile/migdal.ovh/www/php/html.php",
+		"/Data/Seafile/migdal.ovh/src/css/page_specifics.css",
+		"/Data/Seafile/migdal.ovh/www/json/publications.json",
+		"/Data/Seafile/migdal.ovh/www/pages/teaching.php",
+		"/Data/Seafile/migdal.ovh/www/pages/relations.php",
+		"/Data/Seafile/migdal.ovh/src/css/flexbox.css",
+		"/Data/Seafile/migdal.ovh/www/json/partners.json",
+		"/Data/Seafile/migdal.ovh/www/json/teachings.json",
+		"/Data/Seafile/migdal.ovh/www/json/contacts.json",
+		"/Data/Seafile/migdal.ovh/package.json",
+		"/Data/Seafile/migdal.ovh/www/.structure/php/params.php",
+		"/Data/Seafile/migdal.ovh/www/robots.txt",
+		"/Data/Seafile/migdal.ovh/.npmrc",
+		"/Data/Seafile/migdal.ovh/src/css/bootstrap/navabr.css",
+		"/Data/Seafile/migdal.ovh/src/css/bootstrap/grid.css",
+		"/tmp/localhost_home.html",
+		"/Data/Seafile/migdal.ovh/src/css/bootstrap/panels.css",
+		"/Data/Seafile/migdal.ovh/src/css/bootstrap/responsive-utilities.css",
+		"/Data/Seafile/migdal.ovh/src/css/bootstrap/base.css",
+		"/Data/Seafile/migdal.ovh/www/php/home.php",
+		"/Data/Seafile/migdal.ovh/www/bootstrap/config.json",
+		"/Data/Seafile/migdal.ovh/src/js/jquery_base.js",
+		"/Data/Seafile/migdal.ovh/src/css/bootstrap/css/navabr.css",
+		"/Data/Seafile/migdal.ovh/src/css/glyphicons.css",
+		"/Data/Seafile/migdal.ovh/src/css/img/icon.css",
+		"/Data/Seafile/migdal.ovh/src/css/img/~sprites.css",
+		"/Data/Seafile/migdal.ovh/src/css/img/accounts.css",
+		"/Data/Seafile/migdal.ovh/www/.structure/php/optis.php",
+		"/Data/Seafile/migdal.ovh/www/.structure/css/optis.css",
+		"/Data/Seafile/migdal.ovh/src/css/logo.css",
+		"/Data/Seafile/migdal.ovh/src/main.js",
+		"/Data/Seafile/migdal.ovh/www/php/resources.php",
+		"/Data/Seafile/migdal.ovh/www/php/cv.php",
+		"/Data/Seafile/migdal.ovh/www/bootstrap/css/bootstrap.css",
+		"/tmp/test",
+		"/Data/Seafile/migdal.ovh/www/.structure/php/html.php",
+		"/Data/Seafile/migdal.ovh/www/php/topics.php",
+		"/Data/Seafile/migdal.ovh/www/php/relations.php",
+		"/Data/Seafile/migdal.ovh/www/php/teaching.php",
+		"/Data/Seafile/migdal.ovh/migdal.ovh.sublime-project",
+		"/Data/Seafile/migdal.ovh/www/js/main.bundle.js",
+		"/Data/Seafile/migdal.ovh/src/css/navbar-collapse.css",
+		"/Data/Seafile/migdal.ovh/www/css/main.bundle.css",
+		"/Data/Seafile/migdal.ovh/webpack.config.js",
+		"/Data/Seafile/migdal.ovh/.jshintrc",
+		"/Data/Seafile/migdal.ovh/www/css/navbar-collapse.css",
+		"/Data/Seafile/migdal.ovh/src/css/test.css",
+		"/Data/Seafile/migdal.ovh/www/js/nav.js",
+		"/Data/Seafile/migdal.ovh/www/js/main.js"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"rev",
+			"review",
+			"int.conf.",
+			"conf",
+			"int.conf",
+			"langs",
+			"rank",
+			"ranksa",
+			"rank",
+			"core",
+			"vulg",
+			"resources",
+			"img_r",
+			"$types",
+			"pub_su",
+			"pub_s",
+			"cw",
+			"home_desc",
+			"home_topics",
+			"types",
+			"langs",
+			"paper",
+			"fr",
+			"pub_related_links",
+			"paper",
+			"count(",
+			"related_ressources",
+			"pub_getrelated",
+			"pub_print_link",
+			"pub_related_links",
+			"Intern",
+			"Interna",
+			"hetd",
+			";\n",
+			"home_intro",
+			"ext_link",
+			"php/",
+			"RES_PATH",
+			"css_style",
+			"css_path",
+			"CSS_DIR",
+			"IMAGE_DIR",
+			"cntr",
+			"ctrl",
+			"console.l",
+			"toggle",
+			"children",
+			"$",
+			"$contacts",
+			"$resources",
+			"resources",
+			"fill",
+			"cover",
+			"alert",
+			"glyph",
+			"font",
+			"jlink",
+			"echo",
+			"jlink",
+			"echo",
+			"jlink",
+			"echo",
+			"jlink",
+			"echo",
+			"jlink",
+			"goto_pagename",
+			"style",
+			"styl",
+			"style",
+			"sytle",
+			"style",
+			"vertical-align",
+			"vertical-align:top",
+			"style",
+			"h1",
+			"h2",
+			"h1",
+			"style",
+			"styl",
+			"stly",
+			"style",
+			"text-muted",
+			"hidden_page",
+			"footer",
+			"style",
+			"$",
+			"elem",
+			"replace",
+			"goto_page",
+			"goto_pagename",
+			"function(",
+			"init",
+			"init_events",
+			"anchor",
+			"touch_x",
+			"echo"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"rank"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "www/pages/home.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2363,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "www/pages/topics.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2570,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								804,
+								804
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "www/json/resources.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6224,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								596,
+								596
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JSON Key-Value/JSON Key-Value.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "www/json/publications.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 17760,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2838,
+								2838
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JSON Key-Value/JSON Key-Value.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 540.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "www/json/cv.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4642,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								360,
+								360
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JSON Key-Value/JSON Key-Value.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "www/pages/cv.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2413,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1146,
+								1146
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 344.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 6,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1911,
+						"regions":
+						{
+							"10,39":
+							{
+								"flags": 272,
+								"regions":
+								[
+									[
+										1911,
+										1911
+									]
+								],
+								"scope": "terminalview.black_brown"
+							},
+							"10,40":
+							{
+								"flags": 272,
+								"regions":
+								[
+									[
+										1911,
+										1911
+									]
+								],
+								"scope": "terminalview.black_green"
+							},
+							"10,41":
+							{
+								"flags": 272,
+								"regions":
+								[
+									[
+										1911,
+										1911
+									]
+								],
+								"scope": "terminalview.black_green"
+							},
+							"11,18":
+							{
+								"flags": 272,
+								"regions":
+								[
+									[
+										1911,
+										1911
+									]
+								],
+								"scope": "terminalview.black_green"
+							},
+							"11,36":
+							{
+								"flags": 272,
+								"regions":
+								[
+									[
+										1911,
+										1911
+									]
+								],
+								"scope": "terminalview.black_green"
+							},
+							"12,28":
+							{
+								"flags": 272,
+								"regions":
+								[
+									[
+										1911,
+										1911
+									]
+								],
+								"scope": "terminalview.black_brown"
+							},
+							"12,30":
+							{
+								"flags": 272,
+								"regions":
+								[
+									[
+										1911,
+										1911
+									]
+								],
+								"scope": "terminalview.black_green"
+							},
+							"13,30":
+							{
+								"flags": 272,
+								"regions":
+								[
+									[
+										1911,
+										1911
+									]
+								],
+								"scope": "terminalview.black_brown"
+							},
+							"13,32":
+							{
+								"flags": 272,
+								"regions":
+								[
+									[
+										1911,
+										1911
+									]
+								],
+								"scope": "terminalview.black_green"
+							},
+							"14,38":
+							{
+								"flags": 272,
+								"regions":
+								[
+									[
+										1911,
+										1911
+									]
+								],
+								"scope": "terminalview.black_brown"
+							},
+							"14,40":
+							{
+								"flags": 272,
+								"regions":
+								[
+									[
+										1911,
+										1911
+									]
+								],
+								"scope": "terminalview.black_green"
+							},
+							"5,4":
+							{
+								"flags": 272,
+								"regions":
+								[
+									[
+										1911,
+										1911
+									]
+								],
+								"scope": "terminalview.black_green"
+							},
+							"5,41":
+							{
+								"flags": 272,
+								"regions":
+								[
+									[
+										1911,
+										1911
+									]
+								],
+								"scope": "terminalview.black_green"
+							},
+							"6,0":
+							{
+								"flags": 272,
+								"regions":
+								[
+									[
+										1911,
+										1911
+									]
+								],
+								"scope": "terminalview.black_green"
+							},
+							"6,41":
+							{
+								"flags": 272,
+								"regions":
+								[
+									[
+										1911,
+										1911
+									]
+								],
+								"scope": "terminalview.black_green"
+							},
+							"7,18":
+							{
+								"flags": 272,
+								"regions":
+								[
+									[
+										1911,
+										1911
+									]
+								],
+								"scope": "terminalview.black_green"
+							},
+							"7,36":
+							{
+								"flags": 272,
+								"regions":
+								[
+									[
+										1911,
+										1911
+									]
+								],
+								"scope": "terminalview.black_green"
+							},
+							"8,28":
+							{
+								"flags": 272,
+								"regions":
+								[
+									[
+										1911,
+										1911
+									]
+								],
+								"scope": "terminalview.black_brown"
+							},
+							"8,30":
+							{
+								"flags": 272,
+								"regions":
+								[
+									[
+										1911,
+										1911
+									]
+								],
+								"scope": "terminalview.black_green"
+							},
+							"9,30":
+							{
+								"flags": 272,
+								"regions":
+								[
+									[
+										1911,
+										1911
+									]
+								],
+								"scope": "terminalview.black_brown"
+							},
+							"9,32":
+							{
+								"flags": 272,
+								"regions":
+								[
+									[
+										1911,
+										1911
+									]
+								],
+								"scope": "terminalview.black_green"
+							},
+							"9,4":
+							{
+								"flags": 272,
+								"regions":
+								[
+									[
+										1911,
+										1911
+									]
+								],
+								"scope": "terminalview.black_green"
+							},
+							"9,41":
+							{
+								"flags": 272,
+								"regions":
+								[
+									[
+										1911,
+										1911
+									]
+								],
+								"scope": "terminalview.black_green"
+							}
+						},
+						"selection":
+						[
+							[
+								206,
+								206
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"auto_complete_commit_on_tab": false,
+							"caret_style": "blink",
+							"color_scheme": "Packages/TerminalView/TerminalView.hidden-tmTheme",
+							"draw_centered": false,
+							"draw_indent_guides": false,
+							"draw_white_space": "none",
+							"git_gutter_is_enabled": false,
+							"gutter": false,
+							"highlight_line": false,
+							"scroll_past_end": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"terminal_view": true,
+							"terminal_view_activate_args":
+							{
+								"cmd": "/bin/bash -l",
+								"cwd": "/Data/Seafile/migdal.ovh",
+								"keep_open": false,
+								"syntax": null,
+								"title": "JavaScript Enhancements Terminal (bash)"
+							},
+							"terminal_view_last_cursor_pos":
+							[
+								1,
+								59
+							],
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 39.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				0,
+				1,
+				1,
+				2
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			0.719368880757,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 31.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.nodejs":
+	{
+		"height": 108.0
+	},
+	"pinned_build_system": "Packages/JSHint/JSHint.sublime-build",
+	"project": "migdal.ovh.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 1,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 403.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

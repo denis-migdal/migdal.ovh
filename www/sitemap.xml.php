@@ -1,0 +1,219 @@
+<?php
+	header("Content-type: text/xml");
+
+?><?= '<?xml version="1.0" encoding="UTF-8"?>' ?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+<url>
+  <loc>http://migdal.ovh/</loc>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://migdal.ovh/home</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://migdal.ovh/topics</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://migdal.ovh/publications</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://migdal.ovh/resources</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://migdal.ovh/relations</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://migdal.ovh/teaching</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://migdal.ovh/cv</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://migdal.ovh/topics/trust</loc>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>http://migdal.ovh/topics/otdp</loc>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>http://migdal.ovh/publications/2018-icissp</loc>
+  <priority>0.20</priority>
+</url>
+<url>
+  <loc>http://migdal.ovh/publications/2018-itasec</loc>
+  <priority>0.20</priority>
+</url>
+<url>
+  <loc>http://migdal.ovh/resources/2018-icissp-poster</loc>
+  <priority>0.20</priority>
+</url>
+<url>
+  <loc>http://migdal.ovh/resources/2016-acmccs-poster</loc>
+  <priority>0.20</priority>
+</url>
+<url>
+  <loc>http://migdal.ovh/resources/eDemo</loc>
+  <priority>0.40</priority>
+</url>
+<url>
+  <loc>http://migdal.ovh/resources/TR</loc>
+  <priority>0.40</priority>
+</url>
+<url>
+  <loc>http://migdal.ovh/resources/posters</loc>
+  <priority>0.40</priority>
+</url>
+<url>
+  <loc>http://migdal.ovh/resources/slides</loc>
+  <priority>0.40</priority>
+</url>
+<url>
+  <loc>http://migdal.ovh/resources/video</loc>
+  <priority>0.40</priority>
+</url>
+<url>
+  <loc>http://migdal.ovh/relations/greyc</loc>
+  <priority>0.40</priority>
+</url>
+<url>
+  <loc>http://migdal.ovh/relations/uio</loc>
+  <priority>0.40</priority>
+</url>
+<url>
+  <loc>http://migdal.ovh/relations/crosenberger</loc>
+  <priority>0.40</priority>
+</url>
+<url>
+  <loc>http://migdal.ovh/relations/fbuccafurri</loc>
+  <priority>0.40</priority>
+</url>
+<url>
+  <loc>http://migdal.ovh/relations/ajosang</loc>
+  <priority>0.40</priority>
+</url>
+<url>
+  <loc>http://migdal.ovh/relations/cjohansen</loc>
+  <priority>0.40</priority>
+</url>
+<url>
+  <loc>http://migdal.ovh/teaching/cpp</loc>
+  <priority>0.10</priority>
+</url>
+<url>
+  <loc>http://migdal.ovh/teaching/python</loc>
+  <priority>0.10</priority>
+</url>
+<url>
+  <loc>http://migdal.ovh/teaching/soft-eng</loc>
+  <priority>0.10</priority>
+</url>
+<url>
+  <loc>http://migdal.ovh/teaching/3y-projects</loc>
+  <priority>0.10</priority>
+</url>
+<url>
+  <loc>http://migdal.ovh/teaching/l3-internships</loc>
+  <priority>0.10</priority>
+</url>
+<url>
+  <loc>http://migdal.ovh/publications/recent</loc>
+  <priority>0.40</priority>
+</url>
+<url>
+  <loc>http://migdal.ovh/publications/int.conf.</loc>
+  <priority>0.40</priority>
+</url>
+<url>
+  <loc>http://migdal.ovh/publications/nat.conf.</loc>
+  <priority>0.40</priority>
+</url>
+<url>
+  <loc>http://migdal.ovh/publications/posters-demo</loc>
+  <priority>0.40</priority>
+</url>
+<url>
+  <loc>http://migdal.ovh/publications/2017-coresa</loc>
+  <priority>0.20</priority>
+</url>
+<url>
+  <loc>http://migdal.ovh/publications/2017-cw</loc>
+  <priority>0.20</priority>
+</url>
+<url>
+  <loc>http://migdal.ovh/publications/2017-siot</loc>
+  <priority>0.20</priority>
+</url>
+<url>
+  <loc>http://migdal.ovh/publications/2017-ressi</loc>
+  <priority>0.20</priority>
+</url>
+<url>
+  <loc>http://migdal.ovh/resources/2017-ressi-slides</loc>
+  <priority>0.20</priority>
+</url>
+<url>
+  <loc>http://migdal.ovh/resources/2017-ressi-poster</loc>
+  <priority>0.20</priority>
+</url>
+<url>
+  <loc>http://migdal.ovh/publications/2016-acmccs</loc>
+  <priority>0.20</priority>
+</url>
+<url>
+  <loc>http://migdal.ovh/resources/poster</loc>
+  <priority>0.40</priority>
+</url>
+<url>
+  <loc>http://migdal.ovh/resources/2016-uio_1-TR</loc>
+  <priority>0.20</priority>
+</url>
+<url>
+  <loc>http://migdal.ovh/resources/2016-uio_2-TR</loc>
+  <priority>0.20</priority>
+</url>
+<url>
+  <loc>http://migdal.ovh/cv/work</loc>
+  <priority>0.20</priority>
+</url>
+<url>
+  <loc>http://migdal.ovh/cv/resp</loc>
+  <priority>0.20</priority>
+</url>
+<url>
+  <loc>http://migdal.ovh/cv/vulg</loc>
+  <priority>0.20</priority>
+</url>
+<url>
+  <loc>http://migdal.ovh/cv/edu</loc>
+  <priority>0.20</priority>
+</url>
+<url>
+  <loc>http://migdal.ovh/cv/certifs</loc>
+  <priority>0.20</priority>
+</url>
+<url>
+  <loc>http://migdal.ovh/cv/doc-form</loc>
+  <priority>0.20</priority>
+</url>
+<url>
+  <loc>http://migdal.ovh/cv/misc</loc>
+  <priority>0.20</priority>
+</url>
+<url>
+  <loc>http://migdal.ovh/img/migdal-cv.pdf</loc>
+  <priority>0.20</priority>
+</url>
+</urlset>

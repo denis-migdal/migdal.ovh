@@ -1,0 +1,329 @@
+{
+	"2019-fgcs": {
+		"title":"Statistical Modeling of Keystroke Dynamics Samples For the Generation of Synthetic Datasets",
+		"authors":["Denis Migdal", "Christophe Rosenberger"],
+		"topic": ["trust", "trust"],
+		"langs":{"conf.": "2018-cw"},
+		"conf":{
+			"name": "Elsevier Journal on Future Generation Computer Systems, Special Issue on CyberSecurity & Biometrics for a better Cyberworld",
+			"type":"International journal",
+			"date": "N/A",
+			"place":"N/A",
+			"rank":"Q1 - SJR",
+			"accept-rate":"N/A%",
+			"url":"https://www.journals.elsevier.com/future-generation-computer-systems"
+		},
+		"content":{
+			"hal": "hal-02087222",
+			"type":"int.jrnl"
+		},
+		"abstract":"Biometrics is an emerging technology more and more present in our daily life. However, building biometric systems requires a large amount of data that may be difficult to collect. Collecting such sensitive data is also very time consuming and constrained, s.a. GDPR legislation in Europe. In the case of keystroke dynamics, most existing databases have less than 200 users. For these reasons, it is crucial for this biometric modality to be able to generate a significant and realistic synthetic dataset of keystroke dynamics samples. We propose in this paper an original approach for the generation of synthetic keystroke data given samples from known users as a first step towards the generation of synthetic datasets. Experimental results show the capability of the proposed statistical model to generate realistic samples from existing datasets in the literature."
+	},
+	"2019-cw-1": {
+		"title":"My Behavior is my Privacy & Secure Password!",
+		"authors":["Denis Migdal", "Christophe Rosenberger"],
+		"topic": ["trust", "trust"],
+		"conf":{
+			"name": "Cyberworlds",
+			"type":"International conference",
+			"date": "October 2019",
+			"place":"Kyoto, Japan",
+			"rank":"B - Core",
+			"accept-rate":"N/A%",
+			"url":"https://art-science.org/cyberworlds-conference.org/index.html"
+		},
+		"content":{
+			"hal": "hal-02265663",
+			"type":"int.conf."
+		},
+		"abstract":"Many studies propose strong user authentication based on biometric modalities. However, they often either, assume a trusted component, are modality-dependant, use only one biometric modality, are reversible , or does not enable the service to adapt the security on-the-fly. A recent work [1] introduced the concept of Personal Identity Code Respecting Privacy (PICRP), a non-cryptographic and non-reversible signature computed from any arbitrary information. In this paper, we extend this concept with the use of Keystroke Dynamics, IP and GPS geo-location by optimizing the pre-processing and merging of collected information. We demonstrate the performance of the proposed approach through experimental results and we present an example of its usage."
+	},
+	"2019-secrypt": {
+		"title":"Keystroke Dynamics Anonymization System",
+		"authors":["Denis Migdal", "Christophe Rosenberger"],
+		"topic": ["trust", "trust"],
+		"awards": "Best poster",
+		"conf":{
+			"name": "SeCrypt",
+			"type":"International conference",
+			"date": "July 2019",
+			"place":"Prague, Czech Republic",
+			"rank":"B - Core",
+			"accept-rate":"N/A%",
+			"url":"http://www.secrypt.icete.org/"
+		},
+		"content":{
+			"hal": "hal-02126985",
+			"type":"int.conf."
+		},
+		"abstract":"Keystroke Dynamics enables the authentication or identification of users by analyzing their way of typing, e.g. when browsing the Internet. Most studies in the state of the art focus on increasing Keystroke Dynamics Sys- tems performances. In this paper, we address the problematic of avoiding the biometric capture of keystroke dynamics in order to protect users’ privacy. Authentication/identification, profiling can be considered as at- tacks we limit in this contribution. Experimental results obtained on significant datasets show the benefits of the proposed approaches."
+	},
+	"2019-apvp": {
+		"title":"Schéma d'Anonymisation de Dynamique de Frappe au Clavier",
+		"authors":["Denis Migdal", "Christophe Rosenberger"],
+		"topic": ["trust", "trust"],
+		"conf":{
+			"name": "Atelier sur la Protection de la Vie Privée",
+			"type":"National conference",
+			"date": "July 2019",
+			"place":"Cap Hornu, France",
+			"rank":"N/A",
+			"accept-rate":"N/A%",
+			"url":"https://project.inria.fr/apvp2019/"
+		},
+		"content":{
+			"hal": "hal-02265671",
+			"type":"nat.conf."
+		},
+		"abstract":"La dynamique de frappe au clavier permet l'authentification et l'identification d'utilisateurs en analysant leur façon de taper au clavier, e.g. lorsqu'ils naviguent sur Internet. La majorité des études de l'état de l'art visent à améliorer les performances des systèmes de dynamique de frappe au clavier. Dans cet article, nous adressons le problème d'empêcher la capture de la dynamique de frappe afin de protéger la vie privée des utilisateurs. L'authentification/identification, ainsi que le profilage, peuvent être vu comme des attaques que nous limitons dans cette contribution. Des résultats expérimentaux, obtenus sur des bases de données significatives, montrent l'intérêt de la des méthodes proposées."
+	},
+	"2019-cw-2": {
+		"title":"Vulnerability of Adaptive Strategies of Keystroke Dynamics Based Authentication Against Different Attack Types",
+		"authors":["Abir Mhenni", "Denis Migdal", "Estelle Cherrier", "Christophe Rosenberger", "Najoua Essoukri Ben Amara"],
+		"topic": ["trust", "trust"],
+		"conf":{
+			"name": "Cyberworlds",
+			"type":"International conference",
+			"date": "October 2019",
+			"place":"Kyoto, Japan",
+			"rank":"B - Core",
+			"accept-rate":"N/A%",
+			"url":"https://art-science.org/cyberworlds-conference.org/index.html"
+		},
+		"content":{
+			"hal": "hal-02265662",
+			"type":"int.conf."
+		},
+		"abstract":"The attacks considered for keystroke dynamics study especially adaptive strategies have commonly treated impersonation attempts known as zero-effort attacks. These attacks are generally the acquisition of other users of the same database while typing the same password without intending to impersonate the genuine user account. To deal with more realistic scenarios, we are interested in this paper to study the robustness of an adaptive strategy against four types of imposter attacks: zero-effort, spoof, playback and synthetic applied to the WEBGREYC database. Experimental results show that 1) playback and synthetic attacks are the most dangerous and increase the EER rates compared to the other attacks; 2) we also find that the impact of these attacks is more pronounced when the percentages of imposter samples are greater than those of genuine ones; 3) the spoof attacks achieve alarmingly higher FMR, FNMR, and EER rates compared to zero-effort impostor attacks; 4) FMR, FNMR, and EER are higher when the percentage of attacks increases; 5) the attacks belonging to the same user are more dangerous than those of different users in particular when the percentage of the attacks increases. In light of our results, we point out that the traditional attacks considered in research on keystroke-based authentication must evolve according to the evolution of the attacks of nowadays password-based applications."
+	},
+	"2019-summer-school": {
+		"title":"Don't listen to my Keystroke Dynamics!",
+		"authors":["Denis Migdal", "Christophe Rosenberger"],
+		"topic": ["trust", "trust"],
+		"conf":{
+			"name": "16th Int.l Summer School on Biometrics and Forensics 2019",
+			"type":"Summer School",
+			"date": "Mai 2019",
+			"place":"Alghero, Italy",
+			"rank":"Summer School",
+			"accept-rate":"N/A%",
+			"url":"http://biometrics.uniss.it/"
+		},
+		"content":{
+			"hal": "hal-02152100",
+			"type":"posters-demo"
+		},
+		"abstract":"Keystroke Dynamics enables the authentication or identification of users by analyzing their way of typing, e.g. when browsing the Internet. Most studies in the state of the art focus on increasing Keystroke Dynamics Systems performances. In this paper, we address the problematic of avoiding biometric authentication with keystroke dynamics in order to protect users' privacy against unwanted authentication/identification. Experimental results obtained on significant datasets show the benefits of the proposed approaches."
+	},
+	"2019-tsi": {
+		"title": "Protection de données personnelles pour la sécurité sur Internet",
+		"authors": ["Denis Migdal", "Christophe Rosenberger"],
+		"langs": {"conf.": "2018-apvp"},
+		"conf": {
+			"name": "Technique et Science Informatiques",
+			"date": "N/A",
+			"place": "N/A",
+			"rank": "N/A",
+			"accept-rate": "N/A",
+			"url": "https://tsi.revuesonline.com/accueil.jsp"
+		},
+		"content":  {
+			"hal": "hal-02117213",
+			"type": "nat.jrnl"
+		},
+		"abstract": " De nombreuses applications sur Internet nécessitent d'avoir des informations sur l'internaute, pour vérifier qu'il a bien le droit d'accéder à un service numérique (vérification d'une preuve d'identité comme un mot de passe), pour éviter des attaques (pédopornographie, usurpation de profil, ...) ou pour donner de la confiance aux autres utilisateurs (réseaux sociaux). Néanmoins, la protection législative des données personnelles (notamment dans le cadre Européen du Règlement général sur la protection des données) ne permet pas une collecte portant atteinte à la vie privée de l'internaute. Nous proposons donc dans cet article une méthode de génération d'une signature non-cryptographique basée sur l'identité de l'individu. Cette approche se veut respectueuse de la vie privée par construction et permet d'appréhender plusieurs applications dont l'authentification. Des résultats expérimentaux sont donnés dans ce papier illustrant l'apport de la méthode proposée."
+	},
+	"2018-cw": {
+		"title":"Analysis of Keystroke Dynamics For the Generation of Synthetic Datasets",
+		"authors":["Denis Migdal", "Christophe Rosenberger"],
+		"topic": ["trust", "trust"],
+		"langs":{"journal": "2019-fgcs"},
+		"conf":{
+			"name": "CyberWorlds",
+			"type":"International conference",
+			"date": "Oct. 2018",
+			"place":"Singapore, Singapore",
+			"rank":"B - Core",
+			"accept-rate":"N/A%",
+			"url":"http://www.cyberworlds-conference.org/",
+			"page":"https://cw2018.fraunhofer.sg/index.php/program-2/"
+		},
+		"content":{
+			"hal": "hal-01862152",
+			"type":"int.conf."
+		},
+		"abstract":"Biometrics is an emerging technology more and more present in our daily life.  However, building biometric systems requires a large amount of data that may be difficult to collect.  Collecting such sensitive data is  also  very  time consuming  and  constrained,  s.a. GDPR legislation.  In the case of keystroke dynamics, existing databases have less than 200 users.  For these reasons, we aim at generating a keystroke dynamics synthetic dataset. This paper presents the generation of keystroke data from known users as a first step towards the generation of synthetic datasets, and could also be used to impersonate users’ identity."
+	},
+	"2018-apvp": {
+		"title":"Protection de données personnelles pour la sécurité sur Internet ",
+		"authors":["Denis Migdal", "Christophe Rosenberger"],
+		"topic": ["trust", "trust"],
+		"langs": {"journals": "2019-tsi"},
+		"conf":{
+			"name": "Atelier sur la Protection de la Vie Privée",
+			"type":"National conference",
+			"date": "Jun. 2018",
+			"place":"Porquerolles, France",
+			"rank":"N/A",
+			"accept-rate":"N/A%",
+			"url":"https://project.inria.fr/apvp2018/",
+			"page":"https://project.inria.fr/apvp2018/programme/"
+		},
+		"content":{
+			"hal": "hal-01897737",
+			"type":"nat.conf."
+		},
+		"abstract":"De  nombreuses  applications  sur  Internet  nécessitent d’avoir  des  informations  sur  l’internaute,  pour  vérifier  qu’il  a  bien  le  droit  d’accéder  à  un  service  numérique (vérification d’une preuve d’identité comme un mot de passe), pour éviter des attaques (pédopornographie, usurpation de profil,. . .) ou pour donner de la confiance aux  autres  utilisateurs  (réseaux  sociaux).  Après  avoir proposé une méthode de génération d’une signature non-cryptographique  basée  sur  l’identité  de  l’individu  tout en  protégeant  sa  vie  privée  [5],  nous  lançons  aujourd’hui une campagne de collecte sur https://trust.greyc.fr dans le but d’améliorer et de valider notre méthode de génération."
+	},
+	"2018-icissp": {
+		"title":"Towards a Personal Identity Code Respecting Privacy",
+		"authors":["Denis Migdal", "Christophe Rosenberger"],
+		"topic": ["trust", "trust"],
+		"langs":{"fr": "2017-coresa"},
+		"conf":{
+			"name": "ICISSP",
+			"type":"International conference",
+			"date": "Jan. 2018",
+			"place":"Madeira, Portugal",
+			"rank":"N/A",
+			"accept-rate":"N/A%",
+			"url":"http://www.icissp.org/",
+			"page":"http://www.insticc.org/primoris/node/TechnicalProgram/icissp/presentationDetails/65789"
+		},
+		"content":{
+			"hal": "hal-01620972",
+			"type":"int.conf.",
+			"pdf":"@res"
+		},
+		"abstract":"Various applications on Internet require information on users, to verify their right to access services (verification of identity proofs s.a. passwords), to avoid attacks (s.a. paedophilia, profile usurpations), or to give trust to users (e.g. in social networks). In this paper, we introduce a method to generate (non-cryptographics) identity-based signatures computed from 1) collection of data from user biometrics, computer configuration, web browser fingerprinting, 2) data pre-processing, 3) protection of personal information through generation of a binary code (our signature). We illustrate the benefits of the proposed method with preliminary results on real personal information."
+	},
+	"2018-itasec":{
+		"title":"Contrasting False Identities in Social Networks by Trust Chains and Biometric Reinforcement",
+		"authors":["Francesco Buccafurri", "Gianluca Lax", "Denis Migdal", "Serena Nicolazzo", "Antonino Nocera", "Christophe Rosenberger"],
+		"topic": ["trust", "trust"],
+		"langs":{"en": "2017-cw"},
+		"conf":{
+			"name":"ITASEC",
+			"type":"National conference",
+			"date": "Jan. 2018",
+			"place":"Milano, Italia",
+			"rank":"N/A",
+			"accept-rate":"N/A%",
+			"url":"https://www.itasec.it/",
+			"page":""
+		},
+		"content":{
+			"hal": "hal-01620972",
+			"type":"nat.conf."
+		}
+	},
+	"2017-coresa": {
+		"title":"Vers un Code Personnel d'Identité Respectueux de la Vie Privée",
+		"authors":["Denis Migdal", "Christophe Rosenberger"],
+		"topic": ["trust", "trust"],
+		"langs":{"en": "2018-icissp"},
+		"conf":{
+			"name":"CORESA",
+			"type":"National conference",
+			"date": "Nov. 2017",
+			"place":"Caen, France",
+			"rank":"N/A",
+			"accept-rate":"N/A%",
+			"url":"https://coresa2017.sciencesconf.org/",
+			"page":"https://coresa2017.sciencesconf.org/program/graphic"
+		},
+		"content":{
+			"hal": "hal-01598038",
+			"type":"nat.conf.",
+			"pdf":"@res"
+		},
+		"abstract":"De nombreuses applications sur Internet nécessitent d'avoir des informations sur l'internaute, pour vérifier qu'il a bien le droit à d'accéder à un service numérique (vérification d'une preuve d'identité comme un mot de passe), pour éviter des attaques (pédopornographie, usurpation de profil, ...) ou pour donner de la confiance aux autres utilisateurs (réseaux sociaux). Nous proposons dans ce papier une méthode de génération d'une signature basée sur l'identité de l'individu. Elle est calculée à partir de 1) la collecte de données biométriques sur l'individu, sur son ordinateur, son navigateur web, 2) le pré-traitement de ces données et 3) la protection des données personnelles pour la génération d'un code binaire. Nous illustrons l'intérêt de la méthodologie proposée avec des résultats préliminaires sur des données personnelles réelles."
+	},
+	"2017-cw": {
+		"title":"Contrasting False Identities in Social Networks by Trust Chains and Biometric Reinforcement",
+		"authors":["Francesco Buccafurri", "Gianluca Lax", "Denis Migdal", "Serena Nicolazzo", "Antonino Nocera", "Christophe Rosenberger"],
+		"topic": ["trust", "trust"],
+		"langs":{"it": "2018-itasec"},	
+		"conf":{
+			"name":"CyberWorlds",
+			"type":"International conference",
+			"date": "Sep. 2017",
+			"place":"Chester, England",
+			"rank":"B - Core",
+			"accept-rate":"NA%",
+			"url":"http://cw2017.org/",
+			"page":"http://cw2017.org/advance-programme.html"
+		},
+		"content":{
+			"hal": "hal-01589753",
+			"type":"int.conf."
+		},
+		"abstract":"Fake identities and identity theft are issues whose relevance is increasing in the social network domain. This paper deals with this problem by proposing an innovative approach which combines a collaborative mechanism implementing a trust graph with keystroke-dynamic-recognition techniques to trust identities. The trust of each node is computed on the basis of neighborhood recognition and behavioral biometric support. The model leverages the word of mouth propagation and a settable degree of redundancy to obtain robustness. Experimental results show the benefit of the proposed solution even if attack nodes are present in the social network."
+
+	},
+	"2017-siot": {
+		"title":"Offline Trusted Device and Proxy Architecture based on a new TLS Switching technique",
+		"authors":["Denis Migdal", "Christian Johansen", "Audun Jøsang"],
+		"topic": ["otdp", "otdp"],
+		"conf":{
+			"name":"SIoT",
+			"type":"ESORICS Workshop",
+			"date": "Sep. 2017",
+			"place":"Oslo, Norway",
+			"rank":"ESORICS Workshop - A - Core",
+			"accept-rate":"~50%",
+			"url":"http://siot-workshop.org/",
+			"page":"http://siot-workshop.org/#program"
+		},
+		"content":{
+			"hal": "hal-01590191",
+			"type":"int.conf.",
+			"pdf":"@res"
+		},
+		"abstract":"Infection of client devices poses a significant threat to secure user authentication. Combining vulnerable client devices with special security devices, as often the case in e-banking, can increase significantly the security. However, these often incur usability hurdles. This paper describes a new architecture where an untrusted proxy on the client device communicates both with server applications, and a trusted application running on a trusted device. The proxy switches between two TLS channels, one from the client application, and another from the trusted device. The result is a highly usable and flexible architecture with strong security assurances which, moreover, is transparent to the client or server applications, thus allowing it to be deployed in existing systems. We have implemented a PoC (available open source) and demonstrated it using the OffPAD device. Various applications of our architecture can be imagined, some of which we present in the end of the paper, applicable to web services and IoT systems."
+	},
+	"2016-acmccs": {
+		"title":"DEMO: OffPAD-Offline Personal Authenticating Device with Applications in Hospitals and e-Banking",
+		"authors":["Denis Migdal", "Christian Johansen", "Audun Jøsang"],
+		"topic": ["otdp", "otdp"],
+		"langs":{"fr":"2017-ressi"},
+		"conf":{
+			"name":"ACM CCS",
+			"type":"Conference",
+			"date": "Oct. 2016",
+			"place":"Vienna, Austria",
+			"rank":"A* - Core",
+			"accept-rate":"~15%",
+			"url":"https://www.sigsac.org/ccs/CCS2016/index.html",
+			"page":"https://dl.acm.org/citation.cfm?id=2989033&CFID=987582448&CFTOKEN=55337089"
+		},
+		"content":{
+			"hal": "hal-01589899",
+			"type":"posters-demo",
+			"pdf":"@res"
+		},
+		"abstract":"Identity and authentication solutions often lack usability and scalabil-ity, or do not provide high enough authentication assurance. The concept of Lucidman (Local User-Centric Identity Management) is an approach to providing scalable, secure and user friendly identity and authentication functionalities. In this context we demonstrate the use of an OffPAD (Of-fline Personal Authentication Device) as a trusted device to support different forms of authentication. The Lucidman/OffPAD approach consists of locating the identity management and authentication functionalities on the user side instead of on the server side or in the cloud. This demo aims to show how OffPAD strengthens authentication assurance, improves us-ability, minimizes trust requirements, and has the advantage that trusted online interaction can be achieved even in the presence of malware infection of client platforms. The trusted device OffPAD has been designed as a phone cover, therefore not requiring the user to carry an extra gadget. We focus on six demonstrators, three useful in e-banking and three in the hospital domain where nurses, doctors, or patients are authenticated and access is granted in various situations base on the OffPAD. A video for this demo will be available online."
+	},
+	"2017-ressi": {
+		"title":"OffPAD – Objet Personnel d'Authentification Hors-ligne appliqué aux hôpitaux et banques en ligne",
+		"authors":["Denis Migdal", "Audun Jøsang"],
+		"topic": ["otdp", "otdp"],
+		"langs":{"en":"2016-acmccs"},
+		"conf":{
+			"name":"RESSI",
+			"conf-type":"Doctoral Symposium",
+			"date": "May. 2017",
+			"place":"Grenoble, France",
+			"rank":"N/A",
+			"accept-rate":"N/A%",
+			"url":"https://ressi2017.sciencesconf.org/",
+			"page":"https://ressi2017.sciencesconf.org/133813"
+		},
+		"content":{
+			"hal": "hal-01590186",
+			"type":"nat.conf.",
+			"pdf":"@res"
+		},
+		"abstract":"Les solutions d'identité et d'authentification manquent souvent d'ergonomie, de flexibilité, ou ne fournissent pas une fiabilité suffisante. Le concept Lucidman (Local User-Centric Identity Management) est une approche fournissant des fonctionnalités d'authentification et d'identité flexibles, sûres et ergonomiques. Dans ce cadre, nous présentons l'usage d'un OffPAD (Offline Personal Authentication Device) en tant qu'objet sécurisé supportant différentes formes d'authentification. L'approche Lucidman/OffPAD consiste à déporter la gestion d'identité et d'authentification, du serveur (ou du cloud) vers l'utilisateur. Cet article vise a montrer la manière dont l'OffPAD minimise les prérequis, améliore l'ergonomie, et renforce la fiabilité des authentifications, tout en ayant l'avantage de permettre, même en présence de clients corrompus, des transactions en ligne sécurisées. L'objet sécurisé OffPAD a été conçu tel une coque de téléphone, ne constituant ainsi pas un objet supplémentaire porté par l'utilisateur. Nous nous concentrons sur 6 démonstrations, 3 dans un contexte de banques en ligne, et 3 dans un contexte hospitalier où les infirmiers, docteurs, et patients sont authentifiés via l'OffPAD afin de leur fournir, dans différentes situations, l'accès à des ressources."
+	}
+}

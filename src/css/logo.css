@@ -1,0 +1,56 @@
+/* jshint ignore: start */
+
+.logo:hover {
+    opacity: 0.35;
+}
+
+.little_logo {
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.big_logo {
+    margin-right: 10px;
+}
+
+.vat_logo {
+	vertical-align:top;
+}
+
+.logo_3em, .teaching_logo {
+	display:inline-block;
+	width:3em;
+	height:3em;
+}
+
+.logo_25em {
+	display:inline-block;
+	width:2.5em;
+	height:2.5em;
+}
+
+.teaching_logo {
+	margin:0px;
+	padding:0px;
+}
+
+.partner_minilogo {
+	display:inline-block;
+	width:3em;
+	height:4.125em;
+}
+
+.partner_logo {
+	display:inline-block;
+	width:100%;
+	padding-bottom:calc(100% / 2 * 2.75);
+	position:relative;
+}
+
+.partner_logo > div {
+	height:100%;
+	width: 100%;
+	position:absolute;
+	top:0px;
+	left:0px;
+}

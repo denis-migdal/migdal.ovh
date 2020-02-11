@@ -1,0 +1,121 @@
+/* jshint ignore: start */
+.teaching_list {
+	margin-top:1em;
+}
+
+.resources_item, .publications_item {
+	padding:5px;
+}
+
+.partners_list {
+	display:flex;
+	align-items:center;
+	text-align: justify;
+}
+
+.cv_date {
+	width:9ch;
+	display:inline-block;
+}
+
+.functions_mlr_1px {
+	margin-left:1px;
+	margin-right:1px;
+}
+
+.contact_div {
+	font-size:medium;
+	margin-top:10px;
+}
+
+.contact_c {
+	white-space: nowrap;
+	margin-right:10px;
+}
+
+.contact_logo {
+	display:inline-block;
+	width:1.5em;
+	height:1.5em;
+	margin-bottom:0px;
+}
+
+.home_intro {
+	display:flex;
+	align-items:stretch;
+	position:relative;
+
+	margin: 0px -10px;
+}
+
+.home_intro > * {
+	padding: 0px 10px;
+}
+
+.home_intro > .home_card {
+	flex: 0.21 0.21 21%;
+	margin:auto;
+}
+
+.home_intro > .home_desc {
+	flex: 0.78 0.78 78%;
+
+	display:flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.home_card > .img_icon {
+	width:100%;
+	display: inline-block;
+}
+
+
+.home_card > div {
+
+	font-size:medium;
+	border: 1px solid #eee;
+	border-radius: 5px;
+	padding:5px;
+	margin-top:5px;
+	margin-bottom:0px;
+
+}
+
+.home_card > div > div {
+	text-align:center
+}
+
+.home_topics {
+	position:relative;
+}
+
+.home_topics > a {
+	position:absolute;
+	right:0px;
+	bottom:-4px;
+}
+
+.home_sep {
+	margin-top:0px;
+}
+
+.home_contact {
+	font-size:medium;
+	text-align:center;
+	margin-top: 10px;
+}
+
+.home_contact > a {
+	white-space: nowrap;
+	margin-right:10px;
+}
+
+.contact_link > .logo {
+	margin-bottom: -6px;
+}
+
+
+.toc > .cv_toc {
+	text-align: left;
+}

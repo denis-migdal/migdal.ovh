@@ -1,0 +1,22 @@
+{
+	"greyc":{"name": "GREYC", "type": "entity", "url":"https://www.greyc.fr/",
+		"desc": "GREYC is a laboratory (UMR6072) under the CNRS, UNICAEN, ENSICAEN tutelage. I started my PhD thesis in the GREYC laboratory in 2016 into the E-Payement & Biometrics team which subjects are trust and biometrics."},
+
+	"reg":{"name":"Mediterranea University of Reggio Calabria", "type": "entity", "url": "http://www.unirc.it/en/mediterranea.php",
+		"desc": "During my PhD, I spent 1,5 months at the Mediterranea University of Reggio Calabria in the scope of a research collaboration."},
+
+	"uio":{"name":"University of Oslo", "type": "entity", "url": "http://www.uio.no/english/about/",
+		"desc": "University of Oslo (UiO) is the oldest Norwegian University, and the largest until 2016. In 2015, and then in 2016, I made two internship (3-months, and 5-months), inside the Department of Informatics (IfI), working on the OffPAD, an Eurostar project (E!8324), resulting in two publications."},
+
+	"crosenberger":{"name":"Christophe Rosenberger", "type": "coauth", "url": "http://www.ecole.ensicaen.fr/~rosenber/",
+	"desc":"My Thesis director, and director of the GREYC laboratory. His research focus on Biometrics, Fingerprint quality, Keystroke dynamics, Cancelable biometrics, Soft biometrics, template update, forensic analysis, and transparent authentication."},
+
+
+	"fbuccafurri":{"name":"Francesco Buccafurri", "type": "coauth", "desc":"Director of the Computer Science laboratory at the Mediterranea University of Reggio Calabria.", "url":"https://www.unirc.it/scheda_persona.php?id=576"},
+
+
+	"ajosang":{"name":"Audun Jøsang", "type": "coauth", "desc":"Professor at the University of Oslo. His research focus on Identity management, Trust and reputation management, Network security, Security usability, Subjective logic.", "url":"https://folk.uio.no/josang/"},
+
+
+	"cjohansen":{"name":"Christian Johansen", "type": "coauth", "url":"https://www.mn.uio.no/its/english/people/aca/cristi/", "desc":"Researcher at the University of Oslo. His research focus on Modelling of security protocols, programming language formal semantics, modelling language, verification of networked systems, and more."}
+}
