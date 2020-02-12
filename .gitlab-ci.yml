@@ -48,8 +48,7 @@ pages:
     - apk add git npm
     - npm install --verbose
     - npm run build-dev
-    - mkdir public
-    - mv dist/ public/
+    - mv dist public
   artifacts:
     paths:
       - public/
