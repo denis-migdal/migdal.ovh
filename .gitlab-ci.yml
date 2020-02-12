@@ -49,9 +49,9 @@ pages:
     - npm install --verbose
     - npm run build-dev
     - mkdir public
-    - mv dist/ public/${CI_COMMIT_REF_SLUG}
+    - mv dist/ public/
   artifacts:
     paths:
-      - public/${CI_COMMIT_REF_SLUG}
+      - public/
   only:
     - master
