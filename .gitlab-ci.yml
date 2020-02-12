@@ -54,3 +54,12 @@ pages:
       - public/
   only:
     - master
+
+deploy-ovh:
+  stage: deploy
+  script:
+    - apk add git npm
+    - npm install --verbose
+    - npm run build
+    
+  when: manual
