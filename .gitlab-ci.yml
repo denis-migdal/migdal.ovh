@@ -41,6 +41,8 @@ validate-html:
     - npm run validate-html
   except:
     - master
+  only:
+    - test
 
 pages:
   stage: deploy
@@ -61,5 +63,5 @@ deploy-ovh:
     - apk add git npm
     - npm install --verbose
     - npm run build
-    
+
   when: manual
