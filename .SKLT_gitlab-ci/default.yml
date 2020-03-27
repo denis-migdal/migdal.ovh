@@ -1,0 +1,7 @@
+image: mvalois/aura-builder
+
+include:
+  - /.SKLT_gitlab-ci/stages.yml
+  - /.SKLT_gitlab-ci/policy.yml
+  - /.SKLT_gitlab-ci/build.yml
+  - /.SKLT_gitlab-ci/deploy.yml

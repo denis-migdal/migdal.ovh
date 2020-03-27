@@ -1,67 +1,24 @@
-image: alpine
+image: mvalois/aura-builder
 
-# Cache modules in between jobs
-cache:
-  key: "master"
-  paths:
-    - node_modules/
-
-stages:
-  - build
-  - validate
-  - deploy
+include:
+  - /.SKLT_gitlab-ci/stages.yml
+  - /.SKLT_gitlab-ci/policy.yml
+  - /.SKLT_gitlab-ci/build.yml
+  - /.SKLT_gitlab-ci/deploy.yml
 
 build-dev:
-  stage: build
-  script:
-    - apk add git npm
-    - npm install --verbose
-    - npm run build-dev
-  except:
-    - master
-    - test_pages
+  extends: .build-dev
 
 build-prod:
-  stage: build
-  script:
-    - apk add git npm
-    - npm install --verbose
-    - npm run build
-  except:
-    - master
-    - test_pages
+  extends: .build-prod
 
 validate-html:
-  stage: validate
-  script:
-    - apk add git npm
-    - npm install --verbose
-    - npm install -g html-validator-cli
-    - npm run build-dev
-    - npm run validate-html
-  except:
-    - master
-  only:
-    - test
+  extends: .validate-html
+  needs: ["build-dev", "build-prod"]
 
 pages:
-  stage: deploy
+  extends: .pages
   script:
-    - apk add git npm
-    - npm install --verbose
-    - npm run build-dev
-    - mv dist public
-  artifacts:
-    paths:
-      - public/
-  only:
-    - master
-
-deploy-ovh:
-  stage: deploy
-  script:
-    - apk add git npm
-    - npm install --verbose
-    - npm run build
-
-  when: manual
+    - mkdir public/
+    - mv dist/dev/websites/migdal.ovh/* public/
+  needs: ["build-dev"]
