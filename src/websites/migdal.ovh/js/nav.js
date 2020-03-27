@@ -2,13 +2,17 @@
 const $ = require('./jquery_base.js');
 
 function go(page, anchor = "") {
+	
+	page = page || 'home';
 
 	slide(page, anchor);
-	
+
 	history.pushState({}, null, "/"+page+"/" + anchor);
 }
 
 function slide(next, anchor = "") {
+
+	next = next || 'home';
 
 	// display content.
 	$('ul#nav > *').removeClass("active");
