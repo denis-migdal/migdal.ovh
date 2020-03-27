@@ -75,21 +75,6 @@ function show_teachings(target, $) {
 	}
 }
 
-/*
-function teaching_stats() {
-	global $teachings;
-
-	$hetd = 0;
-
-	foreach($teachings as $teaching)
-		$hetd += services_stats($teaching)['hetd'];
-
-	$result = [
-		'hetd' => $hetd
-	];
-
-	return $result;
-}*/
 
 function services_stats(teaching) {
 

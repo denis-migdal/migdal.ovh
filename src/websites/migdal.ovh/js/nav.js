@@ -2,7 +2,7 @@
 const $ = require('./jquery_base.js');
 
 function go(page, anchor = "") {
-	
+
 	page = page || 'home';
 
 	slide(page, anchor);
@@ -30,7 +30,7 @@ function slide(next, anchor = "") {
 	$('.url_hash').removeClass("url_hash");
 
 	if( anchor != "") {
-		let elem = $(anchor);
+		let elem = $('#' + anchor);
 		elem.addClass("url_hash");
 
 		if(elem.size())
@@ -64,6 +64,7 @@ $( () => {
 			return true;
 
 		event.preventDefault();
+
 
 		let [n, page, anchor] = dst.split('/');
 		go(page, anchor);
