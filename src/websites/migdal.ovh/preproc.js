@@ -19,7 +19,7 @@ function __PRESCRIPT__($, options, context = {}) {
 
 			div.append( content );
 
-			require(context.__dir__ + '/js/pages/' + lelem + '.js')( div );
+			require(context.__dir__ + '/js/pages/' + lelem + '.js')( div, $ );
 
 			content_target.append(div);
 		}

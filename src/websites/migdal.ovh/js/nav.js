@@ -4,7 +4,7 @@ const $ = require('./jquery_base.js');
 function go(page, anchor = "") {
 
 	slide(page, anchor);
-
+	
 	history.pushState({}, null, "/"+page+"/" + anchor);
 }
 
