@@ -4,7 +4,7 @@
 	</div>
 	<div class="home_desc text-justify">
 		<div></div>
-		<div><p>PhD Student at the <?= ext_link('GREYC laboratory', 'https://www.greyc.fr/', 'share'); ?>, I ensure that Internet interlocutors are what they claim to be, by <a href='/topics/trust'>collecting information while preserving users' privacy</a>. Since 2017 I am a member of the ENSICAEN's Scientific Council.</p>
+		<div><p>PhD Student at the <a href='https://www.greyc.fr/'>GREYC laboratory <span class="glyphicon glyphicon-share"></span></a>, I ensure that Internet interlocutors are what they claim to be, by <a href='/topics/trust'>collecting information while preserving users' privacy</a>. Since 2017 I am a member of the ENSICAEN's Scientific Council.</p>
 		<p><em>	Education:</em> Engeneering diploma in Computer Science (2016), Master in Computer Science (2016), Master in Management and Administration (2016), Bachelor in Computer Science (2013).</p></div>
 
 		<div>
@@ -19,7 +19,8 @@
 <hr class="hrpart"/>
 
 <h2 class="little_h2">Online demonstrations</h2>
-<?php show_demos(); ?>
+
+<div id='home_demos'></div>
 
 See also
 <a href='/resources/eDemo'>[Demos]</a>
@@ -34,22 +35,20 @@ See also
 
 <h2 class="little_h2">Publications</h2>
 
-<?php pub_summary(); ?>
+<div id='home_publications'></div>
 
 <a href='/publications' class="pull-right hrpartfooter">See all my publications <span class="glyphicon glyphicon-share-alt"></span></a><br/>
 
 <hr class="hrpart"/>
 
 <div class="row">
-	<div class="col-md-6">
+	<div class="col-md-6" id="home_partners">
 		<h2>Research relations</h2>
-
-		<?php show_partners_icons($partners); ?>
+		<!-- add -->
 	</div>
-	<div class="col-md-6">
-		<h2>Teaching (<?= teaching_stats()['hetd']; ?>H)</h2>
-
-		<?php show_teachings_icons($teachings); ?>
+	<div class="col-md-6" id="home_teachings">
+		<h2>Teaching (<span id='home_teaching_stats'></span>H)</h2>
+		<!-- add -->
 	</div>
 </div>
 <div class="row">

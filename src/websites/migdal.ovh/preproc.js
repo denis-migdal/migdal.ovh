@@ -12,11 +12,15 @@ function __PRESCRIPT__($, options, context = {}) {
 		for(let elem of menu) {
 			let lelem = elem.toLowerCase();
 
-			menu_target.append('<li><a href="/'+ lelem +'" id="menu_'+ lelem +'">'+ elem +'</a></li>');
+			menu_target.append('<li id="menu_'+ lelem +'"><a href="/'+ lelem +'">'+ elem +'</a></li>');
 
 			let div = $('<div class="hidden" id="content_'+ lelem +'"></div>');
 			let content = $.parseHTML( fs.readFileSync( context.__dir__ + '/pages/' + lelem + '.html', 'utf8' ) );
+
 			div.append( content );
+
+			require(context.__dir__ + '/js/pages/' + lelem + '.js')( div );
+
 			content_target.append(div);
 		}
 	}
