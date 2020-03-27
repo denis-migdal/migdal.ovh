@@ -2,10 +2,7 @@ class Event {
 
 	constructor(event, currentTarget) {
 		this._event = event;
-
-		this.which = event.which;
 		this.ctrlKey = event.ctrlKey;
-
 		this.currentTarget = currentTarget;
 	}
 
@@ -58,8 +55,12 @@ class HTMLEntityList {
 
 	}
 
-	eq(idx) {
-		return new HTMLEntityList([this._objs[idx]]);
+	size() {
+		return this._objs.length;
+	}
+
+	get(idx) {
+		return this._objs[idx];
 	}
 
 	removeClass(class_name) {

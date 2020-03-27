@@ -39,10 +39,6 @@ body {
     margin : 0px;
 }
 
-.hidden_page {
-	display: none;
-}
-
 body > .container {
     padding: 60px 15px 0;
     display:flex;
