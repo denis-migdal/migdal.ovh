@@ -119,3 +119,7 @@
 .toc > .cv_toc {
 	text-align: left;
 }
+
+.img-rounded.resources_item, .img-rounded.publications_item {
+	overflow: visible;
+}

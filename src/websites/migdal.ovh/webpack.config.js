@@ -9,9 +9,6 @@ module.exports = (type, build, env, argv) => {
 
 	config.plugins = config.plugins || [];
 
-	console.log(env.PROJECT_DIR);
-	console.log('/src/' + type + '/' + build + '/');
-
 	config.plugins.push( new CopyPlugin([{
 		from: '**', to: '.', context: env.PROJECT_DIR + '/src/' + type + '/' + build + '/static/'
 	}]) );

@@ -30,6 +30,9 @@ function slide(next, anchor = "") {
 	$('.url_hash').removeClass("url_hash");
 
 	if( anchor != "") {
+
+		anchor = anchor.replace(/\./g, '\\.');
+
 		let elem = $('#' + anchor);
 		elem.addClass("url_hash");
 
