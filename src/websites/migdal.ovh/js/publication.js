@@ -115,10 +115,91 @@ function show_links(target, pub, $) {
 	}
 }
 
+
+let related_ressources = ['slides', 'poster', 'demo', 'video', 'paper'];
+let related_langs = ['en', 'fr', 'it', 'conf.', 'journal'];
+
 function show_related(target, pub, $) {
- /*<span class='pull-right'>
-		<?= has_related($pub) ? '<i>see also</i>' : '' ?> <?= pub_related_links($pub); ?>
-	</span>*/
+
+	let list = $('<span></span>');
+	list.addClass('pull-right');
+
+
+	let childs = [];
+
+	for(let rres of related_ressources) {
+
+		let related = find_related(pub, rres);
+
+		if(related)
+			childs.push( build_link(rres, related.page, related.id, $) );
+	}
+
+	for(let rlang of related_langs) {
+
+		let related = find_related(pub, rlang);
+		if(related)
+			childs.push( build_link(rlang, related.page, related.id, $) );
+	}
+
+	if(childs.length) {
+		list.append('<i>see also</i> ');
+		list.append(...childs);
+	}
+
+	target.append(list);
+}
+
+
+const resources = require('./../json/resources.json');
+const publications = require('./../json/publications.json');
+
+function find_related(pub, key) {
+
+	let id = pub.id;
+
+	if(pub.langs && pub.langs[key]) {
+		let result = publications[pub.langs[key]];
+		result.id = pub.langs[key];
+		result.page = 'publications';
+		return result;
+	}
+
+	if(key == 'paper') {
+
+		id = id.split('-').slice(0, -1).join('-');
+
+		let paper = publications[id];
+		if(paper) {
+			paper.id = id;
+			paper.page = 'publications';
+			return paper;
+		}
+
+		return null;
+	}
+
+	let res = resources[id + '-' + key];
+	if(res) {
+
+		res.id = id + '-' + key;
+		res.page = 'resources';
+		return res;
+	}
+
+	return null;
+}
+
+
+function build_link(name, page, id, $) {
+
+	let link = $('<a></a>');
+
+	link.attr('title', name);
+	link.attr('href', '/' + page + '/' + id);
+	link.append('<span class="logo vat_logo">['+ name +']</span>');
+
+	return link;
 }
 
 function pub_print_link(target, name, value, $) { // page argument
@@ -174,38 +255,11 @@ function show_publisher(target, pub, $) {
 	}
 
 
-	target.append('TODO');
+	target.append( pub.publisher.name );
 }
-
-/* function pub_publisher($pub, $atext=false) {
-	if( isset($pub['conf'] ) ) {
-		pub_conf($pub['conf'], $atext);
-		return;
-	}
-
-	global $partners;
-
-
-	$publisher_id = null;
-	$publisher = getp($pub, "publisher/name");
-	foreach( $partners as $name => $relation )
-		if( $publisher === $name || $publisher === $relation['name']) {
-			$publisher_id = $name;
-		}
-
-
-	if( $publisher_id != null ) {
-		$auth = $partners[$publisher_id];
-		$name = $auth['name'];
-		$title = isset( $auth['short-desc'] ) ? $auth['short-desc'] : '';
-		?><a <?php if($atext) echo "class='atext'"; ?> title='<?= $title ?>' href='/relations/<?= $publisher_id ?>'><?= $name ?></a><?php
-	}
-	else
-		echo $publisher;
-}*/
 
 
 function show_place(target, pub, $) {
 
-	target.append( pub.conf.date ); // ", " . pub.place;
+	target.append( (pub.conf || pub.publisher).date ); // ", " . pub.place;
 }

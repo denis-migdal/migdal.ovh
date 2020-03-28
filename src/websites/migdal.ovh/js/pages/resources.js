@@ -26,8 +26,6 @@ function fill_summary(target, $) {
 	let list;
 	let i = 0;
 
-	console.log(resources);
-
 	for(let type_id in res_types) {
 		let type_name = res_types[type_id];
 
@@ -67,13 +65,8 @@ function fill_res(target, $) {
 
 		if(type_id == 'demos')
 			PubUtils.show_demos(subdiv, resources, $);
-		else {
-			continue;
-
-			
-			let pubs = Object.keys(resources).filter( e => e.endsWith('-' + type_id) );
-			show_resources(subdiv, resources, pubs, $);
-		}
+		else		
+			show_resources(subdiv, resources, type_id, $);
 
 		div.append(subdiv);
 
@@ -84,7 +77,9 @@ function fill_res(target, $) {
 }
 
 
-function show_resources(elem, resources, pubs, $) {
+function show_resources(target, resources, type_id, $) {
+
+	let pubs = Object.keys(resources).filter( e => e.endsWith('-' + type_id) );
 
 	let list = $('<ul></ul>');
 
@@ -97,10 +92,29 @@ function show_resources(elem, resources, pubs, $) {
 		elem.addClass('img-rounded resources_item');
 		elem.attr('id', id);
 
-		PubUtils.show_publication(elem, publication, $);
+		PubUtils.show_publication(elem, complete_resource(publication), $);
 		list.append(elem);
 	}
 
-	subdiv.append(list);
+	target.append(list);
 
+}
+
+
+const publications = require('./../../json/publications.json');
+
+function complete_resource(res) {
+
+	let paper_id = res.id.split('-').slice(0,-1).join('-');
+
+	if( publications[paper_id] ) {
+
+		let paper = publications[paper_id];
+		res.paper = paper;
+
+		if(paper.conf)
+			res.conf = paper.conf;
+	}
+
+	return res;
 }
