@@ -9,7 +9,7 @@ module.exports = (html, $) => {
 	html.find('#pub_orcid').attr('href', accounts.ORCID.url);
 	html.find('#pub_rg').attr('href', accounts.ResearchGate.url);
 
-	fill_summary(html.find('#pub_summary'), $);
+	PubUtils.show_summary(html.find('#pub_summary'), publications, pub_types, $);
 
 	fill_last_pub(html.find('#recent ul'), $);
 
@@ -37,31 +37,6 @@ let pub_types = {
 	"nat.conf.": "National Conferences",
 	"posters-demo":  "Posters & Demos"
 };
-
-function fill_summary(target, $) {
-
-	target.addClass('pub_sum');
-
-	let list;
-	let i = 0;
-
-	for(let type_id in pub_types) {
-		let type_name = pub_types[type_id];
-
-		if(i++ % 2 == 0) {
-			list = $('<ul></ul>');
-			target.append(list);
-		}
-
-		let pubs = Object.keys(publications).filter( e => publications[e].content.type == type_id);
-		let elem = $('<li><a href="/publications/'+ type_id +'">'+ type_name +':  '+ pubs.length +'</a></li>');
-
-		list.append(elem);
-
-	}
-
-}
-
 
 function fill_pubs(target, $) {
 

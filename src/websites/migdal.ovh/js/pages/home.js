@@ -1,4 +1,7 @@
 const sprites = require('./../../img/logos/sprites.json');
+const resources = require('./../../json/resources.json');
+const publications = require('./../../json/publications.json');
+const PubUtils = require('../publication.js');
 
 module.exports = (html, $) => {
 
@@ -7,12 +10,19 @@ module.exports = (html, $) => {
 	show_partners_icons(html.find('#home_partners'), $);
 	show_teaching_icons(html.find('#home_teachings'), $);
 
-	html.find('#home_demos').append('TODO');
-	//  <?php show_demos(); ?>
-
-	html.find('#home_publications').append('TODO');
-	// <?php pub_summary(); ?>
+	PubUtils.show_demos(html.find('#home_demos'), resources, $);
+	PubUtils.show_summary(html.find('#home_publications'), publications, pub_types, $);
 };
+
+
+let pub_types = {
+	"int.jrnl": "International Journals",
+	"int.conf.": "International Conferences",
+	"nat.jrnl": "National Journals",
+	"nat.conf.": "National Conferences",
+	"posters-demo":  "Posters & Demos"
+};
+
 
 const partners = require('./../../json/partners.json');
 

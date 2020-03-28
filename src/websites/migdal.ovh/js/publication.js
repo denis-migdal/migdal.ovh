@@ -8,9 +8,56 @@ function show_publication(target, pub, $) {
 	show_related(target, pub, $);
 }
 
+function show_demos(target, resources, $) {
+
+	let keys = Object.keys(resources).filter( e => e.endsWith('-demos') );;
+
+	let content = $('<div></div>');
+	content.addClass('demo-lst');
+
+	for(let key of keys) {
+		let res = resources[key];
+
+		content.append('<a href="'+ res.url +'">'+ res.title +'</a>');
+	}
+
+
+	target.append(content);
+}
+
+function show_summary(target, publications, pub_types, $) {
+
+	target.addClass('pub_sum');
+
+	let list;
+	let i = 0;
+
+	for(let type_id in pub_types) {
+		let type_name = pub_types[type_id];
+
+		if(i++ % 2 == 0) {
+			list = $('<ul></ul>');
+			target.append(list);
+		}
+
+		let pubs = Object.keys(publications).filter( e => publications[e].content.type == type_id);
+		let elem = $('<li><a href="/publications/'+ type_id +'">'+ type_name +':  '+ pubs.length +'</a></li>');
+
+		list.append(elem);
+
+	}
+
+}
+
+
 module.exports = {
-	show_publication: show_publication
+	show_publication: show_publication,
+	show_demos: show_demos,
+	show_summary: show_summary
 };
+
+
+/***********************************************/
 
 
 function show_icons(target, pub, $) {

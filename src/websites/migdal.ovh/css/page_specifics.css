@@ -123,3 +123,8 @@
 .img-rounded.resources_item, .img-rounded.publications_item {
 	overflow: visible;
 }
+
+.demo-lst {
+	display:flex;
+	justify-content: space-evenly;
+}
