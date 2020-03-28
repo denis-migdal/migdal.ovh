@@ -67,7 +67,10 @@ function show_icons(target, pub, $) {
 
 function show_warning(target, pub, $) {
 
-	//TODO pub_warning($pub) 
+	if( ! pub.warning)
+		return;
+
+	target.append('<span class="glyphicon glyphicon-alert" title="'+ pub.warning +'"></span>');
 }
 
 function show_awards(target, pub, $) {
