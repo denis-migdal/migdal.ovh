@@ -4,36 +4,36 @@
 		"selected_items":
 		[
 			[
-				"text-a",
-				"text-align\tproperty"
+				"rele",
+				"related_langs"
 			],
 			[
-				"align",
-				"align-items\tproperty"
+				"type",
+				"type_id"
 			],
 			[
-				"flex-",
-				"flex-direction\tproperty"
+				"is",
+				"isFinite\t(value: any) => boolean"
 			],
 			[
-				"flex",
-				"flex-grow\tproperty"
+				"panel_",
+				"panel_body"
 			],
 			[
-				"alig",
-				"align-items\tproperty"
+				"encor",
+				"encodeURIComponent\t(uriComponent: string) => string"
 			],
 			[
-				"serv",
-				"serv_hetd"
+				"init",
+				"initial_page"
 			],
 			[
-				"teac",
-				"teachings"
+				"valid",
+				"validate-html"
 			],
 			[
-				"space",
-				"space-between\tjustify-content"
+				"val",
+				"validate-html"
 			],
 			[
 				"l",
@@ -76,67 +76,178 @@
 	"buffers":
 	[
 		{
-			"file": "www/pages/home.php",
+			"file": "src/websites/migdal.ovh/static/sitemap.xml",
 			"settings":
 			{
-				"buffer_size": 2363,
+				"buffer_size": 1026,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "package-lock.json",
+			"settings":
+			{
+				"buffer_size": 304192,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "www/pages/topics.php",
+			"file": "build-opti.sh",
 			"settings":
 			{
-				"buffer_size": 2570,
+				"buffer_size": 633,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "www/json/resources.json",
+			"file": "package.json",
 			"settings":
 			{
-				"buffer_size": 6224,
+				"buffer_size": 1992,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "www/json/publications.json",
+			"file": "www/php/functions.php",
 			"settings":
 			{
-				"buffer_size": 17760,
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/websites/migdal.ovh/static/.htaccess",
+			"settings":
+			{
+				"buffer_size": 395,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "www/json/cv.json",
+			"file": "src/websites/migdal.ovh/index.html",
 			"settings":
 			{
-				"buffer_size": 4642,
-				"encoding": "UTF-8",
+				"buffer_size": 0,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "www/pages/cv.php",
+			"file": "src/websites/migdal.ovh/webpack.config.js",
 			"settings":
 			{
-				"buffer_size": 2413,
-				"encoding": "UTF-8",
+				"buffer_size": 0,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"contents": "(u64-bionic)migdal@N302L-G17P09:~/Data/Seafile/migdal.ovh$ npm run push                                                                           \n(u64-bionic)migdal@N302L-G17P09:~/Data/Seafile/migdal.ovh$                                                                                        \nta/Seafile/migdal.                                                                                                                                \n                                                                                                                                                  \n                                                                                                                                                  \n                                                                                                                                                  \n                                                                                                                                                  \n                                                                                                                                                  \n                                                                                                                                                  \n                                                                                                                                                  \n                                                                                                                                                  \n                                                                                                                                                  \n                                                                                                                                                  \n",
+			"file": "src/websites/migdal.ovh/pages/publications.html",
 			"settings":
 			{
-				"buffer_size": 1911,
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/websites/migdal.ovh/pages/resources.html",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/websites/migdal.ovh/js/pages/publications.js",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/websites/migdal.ovh/js/pages/resources.js",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/websites/migdal.ovh/js/nav.js",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/websites/migdal.ovh/css/page_specifics.css",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/websites/migdal.ovh/js/publication.js",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/websites/migdal.ovh/js/pages/home.js",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/websites/migdal.ovh/js/pages/cv.js",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "denis@Chrysalis:/Data/Seafile/migdal.ovh$ thunar ./node_modules/prehtml-loader/                                                             \ndenis@Chrysalis:/Data/Seafile/migdal.ovh$ thunar ./node_modules/project-skeleton/                                                           \ndenis@Chrysalis:/Data/Seafile/migdal.ovh$                                                                                                   \n                                                                                                                                            \n                                                                                                                                            \n                                                                                                                                            \n                                                                                                                                            \n                                                                                                                                            \n                                                                                                                                            \n                                                                                                                                            \n                                                                                                                                            \n                                                                                                                                            \n",
+			"settings":
+			{
+				"buffer_size": 1692,
 				"line_ending": "Unix",
 				"name": "JavaScript Enhancements Terminal (bash)",
 				"read_only": true,
 				"scratch": true
+			}
+		},
+		{
+			"file": "src/websites/migdal.ovh/allcss.js",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/websites/migdal.ovh/main.js",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/websites/migdal.ovh/allcss.purged.js",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -181,48 +292,54 @@
 	"expanded_folders":
 	[
 		"/Data/Seafile/migdal.ovh",
+		"/Data/Seafile/migdal.ovh/.SKLT_gitlab-ci",
 		"/Data/Seafile/migdal.ovh/src",
-		"/Data/Seafile/migdal.ovh/src/js",
+		"/Data/Seafile/migdal.ovh/src/websites",
+		"/Data/Seafile/migdal.ovh/src/websites/migdal.ovh",
+		"/Data/Seafile/migdal.ovh/src/websites/migdal.ovh/css",
+		"/Data/Seafile/migdal.ovh/src/websites/migdal.ovh/static",
 		"/Data/Seafile/migdal.ovh/www",
-		"/Data/Seafile/migdal.ovh/www/css",
-		"/Data/Seafile/migdal.ovh/www/img",
-		"/Data/Seafile/migdal.ovh/www/json",
-		"/Data/Seafile/migdal.ovh/www/pages",
 		"/Data/Seafile/migdal.ovh/www/php"
 	],
 	"file_history":
 	[
-		"/Data/Seafile/migdal.ovh/www/.htaccess",
-		"/Data/todo2.txt",
-		"/Data/audun.txt",
-		"/Data/Seafile/migdal.ovh/www/pages/publications.php",
-		"/Data/SSHFS/migdal.ovh/www/json/publications.json",
-		"/Data/SSHFS/migdal.ovh/www/json/resources.json",
-		"/Data/Seafile/migdal.ovh/src/js/nav.js",
-		"/Data/Seafile/migdal.ovh/www/pages/home.php",
-		"/Data/Seafile/migdal.ovh/www/json/resources.json",
+		"/Data/Seafile/migdal.ovh/src/websites/migdal.ovh/css.min/../allcss.js",
+		"/Data/Seafile/migdal.ovh/.SKLT_gitlab-ci/build.yml",
+		"/Data/Seafile/migdal.ovh/src/websites/migdal.ovh/../../../build-opti.sh",
 		"/Data/Seafile/migdal.ovh/www/php/publications.php",
-		"/Data/Seafile/migdal.ovh/www/pages/resources.php",
-		"/Data/Seafile/migdal.ovh/www/json/cv.json",
-		"/Data/Seafile/migdal.ovh/www/pages/cv.php",
+		"/Data/Seafile/migdal.ovh/src/websites/migdal.ovh/js/pages/topics.js",
+		"/Data/Seafile/migdal.ovh/src/websites/migdal.ovh/pages/cv.html",
+		"/Data/Seafile/migdal.ovh/webpack.config.js",
 		"/Data/Seafile/migdal.ovh/www/php/functions.php",
-		"/Data/Seafile/migdal.ovh/www/index.php",
-		"/Data/Seafile/migdal.ovh/src/css/main.css",
-		"/Data/Seafile/migdal.ovh/www/php/images.php",
-		"/Data/Seafile/migdal.ovh/src/css/img/teachings.css",
-		"/Data/Seafile/migdal.ovh/src/css/img/partners.css",
-		"/Data/Seafile/migdal.ovh/www/php/html.php",
-		"/Data/Seafile/migdal.ovh/src/css/page_specifics.css",
-		"/Data/Seafile/migdal.ovh/www/json/publications.json",
-		"/Data/Seafile/migdal.ovh/www/pages/teaching.php",
-		"/Data/Seafile/migdal.ovh/www/pages/relations.php",
-		"/Data/Seafile/migdal.ovh/src/css/flexbox.css",
-		"/Data/Seafile/migdal.ovh/www/json/partners.json",
-		"/Data/Seafile/migdal.ovh/www/json/teachings.json",
-		"/Data/Seafile/migdal.ovh/www/json/contacts.json",
+		"/Data/Seafile/migdal.ovh/src/websites/migdal.ovh/js/nav.js",
+		"/Data/Seafile/migdal.ovh/src/websites/migdal.ovh/js/pages/home.js",
+		"/Data/Seafile/migdal.ovh/src/websites/migdal.ovh/img/logos/sprites.json",
+		"/Data/Seafile/migdal.ovh/src/websites/migdal.ovh/pages/publications.html",
+		"/Data/Seafile/migdal.ovh/src/websites/migdal.ovh/js/pages/publications.js",
+		"/Data/Seafile/migdal.ovh/src/websites/migdal.ovh/pages/relations.html",
+		"/Data/Seafile/migdal.ovh/src/websites/migdal.ovh/js/pages/relations.js",
+		"/Data/Seafile/migdal.ovh/src/websites/migdal.ovh/preproc.js",
+		"/Data/Seafile/migdal.ovh/src/websites/migdal.ovh/pages/resources.html",
+		"/Data/Seafile/migdal.ovh/src/websites/migdal.ovh/pages/teaching.html",
+		"/Data/Seafile/migdal.ovh/src/websites/migdal.ovh/js/pages/teaching.js",
+		"/Data/Seafile/migdal.ovh/src/websites/migdal.ovh/js/pages/cv.js",
+		"/Data/Seafile/migdal.ovh/src/websites/migdal.ovh/json/accounts.json",
+		"/Data/Seafile/migdal.ovh/src/websites/migdal.ovh/main.js",
+		"/Data/Seafile/migdal.ovh/src/websites/migdal.ovh/js/jquery_base.js",
+		"/Data/Seafile/migdal.ovh/src/websites/migdal.ovh/css/main.css",
+		"/Data/Seafile/migdal.ovh/src/websites/migdal.ovh/css/main.js",
+		"/Data/Seafile/migdal.ovh/src/websites/migdal.ovh/index.html",
+		"/Data/Seafile/migdal.ovh/src/websites/migdal.ovh/pages/meta.json",
+		"/Data/Seafile/migdal.ovh/src/websites/migdal.ovh/js/pages/resources.js",
+		"/Data/Seafile/migdal.ovh/src/websites/migdal.ovh/pages/topics.html",
+		"/Data/Seafile/migdal.ovh/src/websites/migdal.ovh/pages/home.html",
 		"/Data/Seafile/migdal.ovh/package.json",
-		"/Data/Seafile/migdal.ovh/www/.structure/php/params.php",
-		"/Data/Seafile/migdal.ovh/www/robots.txt",
+		"/Data/Seafile/migdal.ovh/package-lock.json",
+		"/Data/Seafile/migdal.ovh/.gitlab-ci.yml",
+		"/Data/Seafile/migdal.ovh/dist/dev/websites/migdal.ovh/index.html",
+		"/Data/Seafile/migdal.ovh/.gitconfig",
+		"/Data/Seafile/migdal.ovh/www/index.php",
+		"/Data/Seafile/migdal.ovh/src/css/page_specifics.css",
 		"/Data/Seafile/migdal.ovh/.npmrc",
 		"/Data/Seafile/migdal.ovh/src/css/bootstrap/navabr.css",
 		"/Data/Seafile/migdal.ovh/src/css/bootstrap/grid.css",
@@ -232,14 +349,18 @@
 		"/Data/Seafile/migdal.ovh/src/css/bootstrap/base.css",
 		"/Data/Seafile/migdal.ovh/www/php/home.php",
 		"/Data/Seafile/migdal.ovh/www/bootstrap/config.json",
+		"/Data/Seafile/migdal.ovh/src/js/nav.js",
 		"/Data/Seafile/migdal.ovh/src/js/jquery_base.js",
 		"/Data/Seafile/migdal.ovh/src/css/bootstrap/css/navabr.css",
 		"/Data/Seafile/migdal.ovh/src/css/glyphicons.css",
 		"/Data/Seafile/migdal.ovh/src/css/img/icon.css",
 		"/Data/Seafile/migdal.ovh/src/css/img/~sprites.css",
 		"/Data/Seafile/migdal.ovh/src/css/img/accounts.css",
+		"/Data/Seafile/migdal.ovh/src/css/img/partners.css",
+		"/Data/Seafile/migdal.ovh/src/css/img/teachings.css",
 		"/Data/Seafile/migdal.ovh/www/.structure/php/optis.php",
 		"/Data/Seafile/migdal.ovh/www/.structure/css/optis.css",
+		"/Data/Seafile/migdal.ovh/src/css/main.css",
 		"/Data/Seafile/migdal.ovh/src/css/logo.css",
 		"/Data/Seafile/migdal.ovh/src/main.js",
 		"/Data/Seafile/migdal.ovh/www/php/resources.php",
@@ -254,7 +375,7 @@
 		"/Data/Seafile/migdal.ovh/www/js/main.bundle.js",
 		"/Data/Seafile/migdal.ovh/src/css/navbar-collapse.css",
 		"/Data/Seafile/migdal.ovh/www/css/main.bundle.css",
-		"/Data/Seafile/migdal.ovh/webpack.config.js",
+		"/Data/Seafile/migdal.ovh/www/.htaccess",
 		"/Data/Seafile/migdal.ovh/.jshintrc",
 		"/Data/Seafile/migdal.ovh/www/css/navbar-collapse.css",
 		"/Data/Seafile/migdal.ovh/src/css/test.css",
@@ -263,7 +384,7 @@
 	],
 	"find":
 	{
-		"height": 27.0
+		"height": 28.0
 	},
 	"find_in_files":
 	{
@@ -277,48 +398,38 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"rev",
-			"review",
-			"int.conf.",
-			"conf",
-			"int.conf",
-			"langs",
-			"rank",
-			"ranksa",
-			"rank",
-			"core",
-			"vulg",
-			"resources",
-			"img_r",
-			"$types",
-			"pub_su",
-			"pub_s",
-			"cw",
-			"home_desc",
-			"home_topics",
-			"types",
-			"langs",
-			"paper",
-			"fr",
-			"pub_related_links",
-			"paper",
-			"count(",
-			"related_ressources",
+			"pub_warning",
+			"lang",
 			"pub_getrelated",
+			"conso",
+			"demo",
+			"demos",
+			"sum",
+			"pub_su",
+			"publications_item",
+			"pub_cont",
+			"types",
+			"console.log",
+			"hal-url",
+			"geta(",
 			"pub_print_link",
-			"pub_related_links",
-			"Intern",
-			"Interna",
-			"hetd",
-			";\n",
-			"home_intro",
-			"ext_link",
-			"php/",
-			"RES_PATH",
-			"css_style",
-			"css_path",
-			"CSS_DIR",
-			"IMAGE_DIR",
+			"pub_links",
+			"pub_place",
+			"pub_publisher",
+			"show_publication",
+			"title(",
+			"key",
+			"<?=",
+			"<?php",
+			"<?=",
+			"#menu_",
+			"eq(",
+			"eq",
+			"_event",
+			"currentTarget",
+			"init",
+			"hidden",
+			"<?=",
 			"cntr",
 			"ctrl",
 			"console.l",
@@ -380,7 +491,6 @@
 		"regex": false,
 		"replace_history":
 		[
-			"rank"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -391,16 +501,47 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 3,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "www/pages/home.php",
+					"file": "src/websites/migdal.ovh/static/sitemap.xml",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2363,
+						"buffer_size": 1026,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								688,
+								688
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/XML/XML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "package-lock.json",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 304192,
 						"regions":
 						{
 						},
@@ -413,36 +554,39 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/zzz A File Icon zzz/aliases/JSON (NPM).sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "www/pages/topics.php",
+					"buffer": 2,
+					"file": "build-opti.sh",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2570,
+						"buffer_size": 633,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								804,
-								804
+								569,
+								569
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/ShellScript/Bash.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -452,83 +596,26 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "www/json/resources.json",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 6224,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								596,
-								596
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JSON Key-Value/JSON Key-Value.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
 					"buffer": 3,
-					"file": "www/json/publications.json",
+					"file": "package.json",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 17760,
+						"buffer_size": 1992,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2838,
-								2838
+								545,
+								545
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JSON Key-Value/JSON Key-Value.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 540.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "www/json/cv.json",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4642,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								360,
-								360
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JSON Key-Value/JSON Key-Value.tmLanguage",
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/zzz A File Icon zzz/aliases/JSON (NPM).sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
@@ -539,32 +626,394 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": "www/pages/cv.php",
+					"buffer": 4,
+					"file": "www/php/functions.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2413,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1146,
-								1146
+								0,
+								0
 							]
 						],
 						"settings":
 						{
+							"git_gutter_is_enabled": true,
 							"syntax": "Packages/PHP/PHP.sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 344.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "src/websites/migdal.ovh/static/.htaccess",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 395,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								263,
+								263
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 15,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "src/websites/migdal.ovh/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "src/websites/migdal.ovh/webpack.config.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/zzz A File Icon zzz/aliases/JavaScript (Webpack).sublime-syntax",
+							"word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "src/websites/migdal.ovh/pages/publications.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 19,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "src/websites/migdal.ovh/pages/resources.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 18,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "src/websites/migdal.ovh/js/pages/publications.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/JavaScriptNext - ES6 Syntax/JavaScriptNext.tmLanguage",
+							"word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 14,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "src/websites/migdal.ovh/js/pages/resources.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/JavaScriptNext - ES6 Syntax/JavaScriptNext.tmLanguage",
+							"word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "src/websites/migdal.ovh/js/nav.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/JavaScriptNext - ES6 Syntax/JavaScriptNext.tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "src/websites/migdal.ovh/css/page_specifics.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 17,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "src/websites/migdal.ovh/js/publication.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/JavaScriptNext - ES6 Syntax/JavaScriptNext.tmLanguage",
+							"word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "src/websites/migdal.ovh/js/pages/home.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/JavaScriptNext - ES6 Syntax/JavaScriptNext.tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 16,
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"file": "src/websites/migdal.ovh/js/pages/cv.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/JavaScriptNext - ES6 Syntax/JavaScriptNext.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 20,
 					"type": "text"
 				}
 			]
@@ -574,285 +1023,57 @@
 			"sheets":
 			[
 				{
-					"buffer": 6,
+					"buffer": 17,
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1911,
+						"buffer_size": 1692,
 						"regions":
 						{
-							"10,39":
+							"4,3":
 							{
 								"flags": 272,
 								"regions":
 								[
 									[
-										1911,
-										1911
-									]
-								],
-								"scope": "terminalview.black_brown"
-							},
-							"10,40":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										1911,
-										1911
+										1692,
+										1692
 									]
 								],
 								"scope": "terminalview.black_green"
 							},
-							"10,41":
+							"5,16":
 							{
 								"flags": 272,
 								"regions":
 								[
 									[
-										1911,
-										1911
+										1692,
+										1692
 									]
 								],
 								"scope": "terminalview.black_green"
 							},
-							"11,18":
+							"6,7":
 							{
 								"flags": 272,
 								"regions":
 								[
 									[
-										1911,
-										1911
+										1692,
+										1692
 									]
 								],
 								"scope": "terminalview.black_green"
 							},
-							"11,36":
+							"8,3":
 							{
 								"flags": 272,
 								"regions":
 								[
 									[
-										1911,
-										1911
-									]
-								],
-								"scope": "terminalview.black_green"
-							},
-							"12,28":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										1911,
-										1911
-									]
-								],
-								"scope": "terminalview.black_brown"
-							},
-							"12,30":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										1911,
-										1911
-									]
-								],
-								"scope": "terminalview.black_green"
-							},
-							"13,30":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										1911,
-										1911
-									]
-								],
-								"scope": "terminalview.black_brown"
-							},
-							"13,32":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										1911,
-										1911
-									]
-								],
-								"scope": "terminalview.black_green"
-							},
-							"14,38":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										1911,
-										1911
-									]
-								],
-								"scope": "terminalview.black_brown"
-							},
-							"14,40":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										1911,
-										1911
-									]
-								],
-								"scope": "terminalview.black_green"
-							},
-							"5,4":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										1911,
-										1911
-									]
-								],
-								"scope": "terminalview.black_green"
-							},
-							"5,41":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										1911,
-										1911
-									]
-								],
-								"scope": "terminalview.black_green"
-							},
-							"6,0":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										1911,
-										1911
-									]
-								],
-								"scope": "terminalview.black_green"
-							},
-							"6,41":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										1911,
-										1911
-									]
-								],
-								"scope": "terminalview.black_green"
-							},
-							"7,18":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										1911,
-										1911
-									]
-								],
-								"scope": "terminalview.black_green"
-							},
-							"7,36":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										1911,
-										1911
-									]
-								],
-								"scope": "terminalview.black_green"
-							},
-							"8,28":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										1911,
-										1911
-									]
-								],
-								"scope": "terminalview.black_brown"
-							},
-							"8,30":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										1911,
-										1911
-									]
-								],
-								"scope": "terminalview.black_green"
-							},
-							"9,30":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										1911,
-										1911
-									]
-								],
-								"scope": "terminalview.black_brown"
-							},
-							"9,32":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										1911,
-										1911
-									]
-								],
-								"scope": "terminalview.black_green"
-							},
-							"9,4":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										1911,
-										1911
-									]
-								],
-								"scope": "terminalview.black_green"
-							},
-							"9,41":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										1911,
-										1911
+										1692,
+										1692
 									]
 								],
 								"scope": "terminalview.black_green"
@@ -861,8 +1082,8 @@
 						"selection":
 						[
 							[
-								206,
-								206
+								324,
+								324
 							]
 						],
 						"settings":
@@ -890,9 +1111,10 @@
 							},
 							"terminal_view_last_cursor_pos":
 							[
-								1,
-								59
+								2,
+								42
 							],
+							"terminal_view_scroll": null,
 							"word_wrap": false
 						},
 						"translation.x": 0.0,
@@ -901,17 +1123,106 @@
 					},
 					"stack_index": 0,
 					"type": "text"
+				},
+				{
+					"buffer": 18,
+					"file": "src/websites/migdal.ovh/allcss.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/JavaScriptNext - ES6 Syntax/JavaScriptNext.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 19,
+					"file": "src/websites/migdal.ovh/main.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/JavaScriptNext - ES6 Syntax/JavaScriptNext.tmLanguage",
+							"word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 20,
+					"file": "src/websites/migdal.ovh/allcss.purged.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/JavaScriptNext - ES6 Syntax/JavaScriptNext.tmLanguage",
+							"word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
 				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 27.0
+		"height": 28.0
 	},
 	"input":
 	{
-		"height": 39.0
+		"height": 40.0
 	},
 	"layout":
 	{
@@ -938,16 +1249,20 @@
 		"rows":
 		[
 			0.0,
-			0.719368880757,
+			0.694025350755,
 			1.0
 		]
 	},
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 31.0
+		"height": 32.0
 	},
 	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.mdpopups":
 	{
 		"height": 0.0
 	},
@@ -959,7 +1274,7 @@
 	"project": "migdal.ovh.sublime-project",
 	"replace":
 	{
-		"height": 50.0
+		"height": 52.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -997,7 +1312,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 403.0,
+	"side_bar_width": 317.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

@@ -1,6 +1,0 @@
-{
-	"mail pro":{"type":"mail", "title":"dmigdal@ensicaen.fr"},
-	"mail perso":{"type":"mail", "title":"denis@migdal.ovh"},
-	"phone pro":{"type":"phone", "title":"+33 (0)2 31 53 81 88"},
-	"addresse":{"type":"address", "title": "ENSICAEN - GREYC\n6, Bvd. Maréchal Juin\nOffice FB - 328\n14 000 Caen CEDEX\nFRANCE", "url":"https://www.google.com/maps/place/Laboratoire+GREYC/@46.533226,-0.7626769,6z/data=!4m12!1m6!3m5!1s0x480a5d3161499edb:0x3a5eaa7820f0c902!2sENSICAEN!8m2!3d49.2147766!4d-0.3671692!3m4!1s0x0:0xaaaf93ededd034fb!8m2!3d49.2148911!4d-0.3689519", "small-title": "GREYC Lab., Normandy, France"}
-}

@@ -1,0 +1,18 @@
+<li id='{{id}}' class='img-rounded publications_item'>
+	<!-- show_icons(target, pub, $); -->
+
+	<strong><a href='publications/{{id}}' title="{{abstract}}">{{title}}</a></strong>, 
+	{{authors.map(e => e === 'Denis Migdal' ? '<em>Denis Migdal</em>' : e).join(', ')}}, 
+	<strong><a href='{{conf.url}}' title='{{conf.type}}\nRank: {{conf.rank}}\nAccept. rate: {{conf["accept-rate"]}}'>{{conf.name}} {{conf.rank !== 'N/A' ? `(${conf.rank})` : ''}}</a></strong>, 
+	{{conf.date}}
+	<br/>
+	{{
+		let div = $('<div></div>');
+
+		for(let name in links)
+			div.append( component_builder($, '../pubs_links', {name, value: links[name]}) );
+
+		div.html();
+	}}
+	<!--show_related(target, pub, $); -->
+</li>

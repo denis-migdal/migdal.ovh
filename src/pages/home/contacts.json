@@ -1,0 +1,9 @@
+{
+	"mail pro":{"type":"mail", "title":"denis.migdal@uca.fr"},
+	"mail perso":{"type":"mail", "title":"denis@migdal.ovh"},
+	"addresse":{"type":"address",
+
+			"title": "Campus Universitaire des Cézeaux\n1 rue de la Chebarde\nTSA \nCS 60026\n63178 AUBIERE CEDEX\nFRANCE",
+			"url":"https://limos.fr/",
+			"small-title": "LIMOS, Aurillac, France"}
+}

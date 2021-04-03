@@ -1,6 +1,0 @@
-
-stages:
-  - policy
-  - build
-  - validate
-  - deploy
