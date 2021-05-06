@@ -68,15 +68,18 @@ module.exports = ({TARGET}, {mode}) => {
 		let css_purge = {
 
 			loader: '@americanexpress/purgecss-loader',
-            options: { paths: html_targets }
+            options: {
+            	paths: html_targets,
+            	whitelist: ['show']
+            }
 		};
-
+/*
 		css_purge = {
 
 			loader: '@fullhuman/purgecss-loader',
 			options: { content: html_targets }
 		}
-
+*/
 		return [{
 			module: {
 				rules: [{

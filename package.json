@@ -13,6 +13,7 @@
 	},
 	"author": "Denis Migdal",
 	"dependencies": {
+		"@americanexpress/purgecss-loader": "^2.0.0",
 		"@fullhuman/purgecss-loader": "^1.0.0",
 		"bootstrap": "^4.6.0",
 		"copy-webpack-plugin": "^8.1.0",

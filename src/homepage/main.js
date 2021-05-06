@@ -1,3 +1,5 @@
+import 'bootstrap';
+
 {
 	let req = require.context("../pages/", true, /^.*\.css$/);
 	req.keys().forEach( (key) => {
