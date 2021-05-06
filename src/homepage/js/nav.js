@@ -1,6 +1,17 @@
 //const $ = require('jquery');
 const $ = require('./jquery_base.js');
 
+$( () => {
+
+	let navbar = $('.navbar-toggle');
+	let navmenu = $('#navbar');
+
+	navbar.on('click', () => {
+		navbar.toggleClass('collapsed');
+		navmenu.toggleClass('show');
+	});
+});
+
 function go(page, anchor = "") {
 
 	page = page || 'home';

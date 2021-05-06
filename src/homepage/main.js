@@ -1,4 +1,4 @@
-import 'bootstrap';
+//import 'bootstrap';
 
 {
 	let req = require.context("../pages/", true, /^.*\.css$/);

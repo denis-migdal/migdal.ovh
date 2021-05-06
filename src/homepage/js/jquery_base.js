@@ -77,7 +77,7 @@ class HTMLEntityList {
 		return this._objs[0].classList.contains(class_name);
 	}
 
-	toggleClass(class_name, enable) {
+	toggleClass(class_name, enable = ! this.hasClass(class_name) ) {
 
 		if(enable)
 			this.addClass(class_name);
